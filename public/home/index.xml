@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on Amir Yazdani</title>
     <link>https://amir-yazdani.github.io/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on Amir Yazdani</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/home/about/</guid>
-      <description>Biography I am a Ph.D. candidate at the Utah Robotics Center, University of Utah. I am passionate about human-aware prediction and planning for robots, reinforcement learning, artificial intelligence, and probabilistic robotics. My current research includes pose estimation and prediction, learning and planning under uncertainty, motion planning and safety in robotics. I also have experiences in the design and development of robots including serial and parallel manipulators and mobile robots.</description>
+      <description>Biography I am a Ph.D. candidate at the Utah Robotics Center, University of Utah. I do my research under supervisory of Prof. Tucker Hermans and Prof. Andrew Merryweather and I am affiliated with Utah Learning Lab for Manipulation Autonomy and Laboratory of Ergonomics and Safety. I am passionate about human-aware prediction and planning for robots, reinforcement learning, artificial intelligence, and probabilistic robotics. My current research includes pose estimation and prediction, learning and planning under uncertainty, motion planning and ergonomics and safety in robotics.</description>
     </item>
     
     <item>
@@ -112,13 +112,30 @@
     </item>
     
     <item>
-      <title>Custom Section</title>
+      <title>Awards and Honors</title>
+      <link>https://amir-yazdani.github.io/home/awards/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/awards/</guid>
+      <description>   Date Description     2018 Graduate Student Travel Assistance award, Graduate School, The University of Utah   2018 American Society of Safety Professionals (ASSP) Foundation Scholarship   2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   2017 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   2014 First place in Senior Demo league in RoboCup IranOpen    </description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://amir-yazdani.github.io/home/news/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/news/</guid>
+      <description>   Date Description     Oct 2018 An abstract presented in NOIRS 2018   Oct 2018 Paper presented in IROS 2018, Mardid, Spain   Apr 2018 Awarded the 2018 ASSP Foundation Scholarship   May 2018 Awarded the 2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   Jul 2017 Poster presented in ICAMPAM 2018, Bethesda, MD   May 2017 Awarded the 2017 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   May 2017 Abstract presented in 2017 NOISH State of The Science Conference, Aurora, CO   May 2017 Abstract presented in NORA 2017, Salt Lake City, UT   Jul 2016 Awarded the $6,500 NIOSH Pilot Project grant from RMCOEH    </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
       <link>https://amir-yazdani.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+      <description> University of Utah  ME EN 1000: Introduction to Design for Engineering Systems (TA) ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA) ME EN 4000: Engineering Design I (TA) ME EN 1005: CAD Lab (Lab instructor)  University of Tehran  Parallel Robots (TA) Statics and Strength of Materials (TA) Advanced Robotics (TA)  IEEE-Iran Section  Robot design by SolidWorks (Instructor)  Khajeh Nasir Toosi Univerity of Technology  Engineering Drawing (Lab instructor)  </description>
     </item>
     
     <item>

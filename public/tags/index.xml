@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Academic</title>
+    <title>Tags on Amir Yazdani</title>
     <link>https://amir-yazdani.github.io/tags/</link>
-    <description>Recent content in Tags on Academic</description>
+    <description>Recent content in Tags on Amir Yazdani</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Abstract</title>
+      <link>https://amir-yazdani.github.io/tags/abstract/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/tags/abstract/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOIRS2018</title>
+      <link>https://amir-yazdani.github.io/tags/noirs2018/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/tags/noirs2018/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
