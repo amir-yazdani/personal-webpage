@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Academic</title>
-      <link>https://amir-yazdani.github.io/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/home/hero/</guid>
-      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://amir-yazdani.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
@@ -40,12 +31,12 @@
     </item>
     
     <item>
-      <title>Skills</title>
-      <link>https://amir-yazdani.github.io/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0600</pubDate>
+      <title>Academic</title>
+      <link>https://amir-yazdani.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/skills/</guid>
-      <description></description>
+      <guid>https://amir-yazdani.github.io/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
     </item>
     
     <item>
@@ -67,12 +58,21 @@
     </item>
     
     <item>
-      <title>Recent Publications</title>
-      <link>https://amir-yazdani.github.io/home/publications/</link>
+      <title>Skills</title>
+      <link>https://amir-yazdani.github.io/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Skills</title>
+      <link>https://amir-yazdani.github.io/home/my_skills/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/publications/</guid>
-      <description></description>
+      <guid>https://amir-yazdani.github.io/home/my_skills/</guid>
+      <description>Research Implementation:  Particle Filters Optimal Motion Planning Convex Optimization Model Predictive Control Fault-tolerant Motion Planning Kinematics and Dynamics Progressive Growing Neural Gas Network Torque Control Kinematics and Dynamics  Sofware:          Programming Python, C++, MATLAB, R   ROS packages rviz, gazeebo, rtabmap, kdl, openslam, gmapping, , tracIK   Vision opencv, openni, tensorflow   Engineering SolidWorks, Catia, ADAMS, MATLAB Simulink, SimMechanics, Gurobi optimization    Hardware: Commercial robots:</description>
     </item>
     
     <item>
@@ -85,11 +85,20 @@
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://amir-yazdani.github.io/home/talks/</link>
+      <title>News</title>
+      <link>https://amir-yazdani.github.io/home/news/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/talks/</guid>
+      <guid>https://amir-yazdani.github.io/home/news/</guid>
+      <description>Date Description     October 2018 An abstract presented in NOIRS 2018, Morgantown, WV   October 2018 Paper presented in IROS 2018, Mardid, Spain   April 2018 Awarded the 2018 ASSP Foundation Scholarship   May 2018 Awarded the 2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   July 2017 Poster presented in ICAMPAM 2018, Bethesda, MD   May 2017 Awarded the 2017 Dr.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://amir-yazdani.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/projects/</guid>
       <description></description>
     </item>
     
@@ -103,11 +112,11 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://amir-yazdani.github.io/home/projects/</link>
+      <title>Recent Publications</title>
+      <link>https://amir-yazdani.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/projects/</guid>
+      <guid>https://amir-yazdani.github.io/home/publications/</guid>
       <description></description>
     </item>
     
@@ -121,21 +130,12 @@
     </item>
     
     <item>
-      <title>News</title>
-      <link>https://amir-yazdani.github.io/home/news/</link>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://amir-yazdani.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/news/</guid>
-      <description>Date Description     Oct 2018 An abstract presented in NOIRS 2018, Morgantown, WV   Oct 2018 Paper presented in IROS 2018, Mardid, Spain   Apr 2018 Awarded the 2018 ASSP Foundation Scholarship   May 2018 Awarded the 2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   Jul 2017 Poster presented in ICAMPAM 2018, Bethesda, MD   May 2017 Awarded the 2017 Dr.</description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://amir-yazdani.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/home/teaching/</guid>
-      <description> University of Utah  ME EN 1000: Introduction to Design for Engineering Systems (TA) ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA) ME EN 4000: Engineering Design I (TA) ME EN 1005: CAD Lab (Lab instructor)  University of Tehran  Parallel Robots (TA) Statics and Strength of Materials (TA) Advanced Robotics (TA)  IEEE-Iran Section  Robot design by SolidWorks (Instructor)  Khajeh Nasir Toosi Univerity of Technology  Engineering Drawing (Lab instructor)  </description>
+      <guid>https://amir-yazdani.github.io/home/talks/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -145,6 +145,15 @@
       
       <guid>https://amir-yazdani.github.io/home/tags/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://amir-yazdani.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/teaching/</guid>
+      <description> University of Utah  ME EN 1000: Introduction to Design for Engineering Systems (TA) ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA) ME EN 4000: Engineering Design I (TA) ME EN 1005: CAD Lab (Lab instructor)  University of Tehran  Parallel Robots (TA) Statics and Strength of Materials (TA) Advanced Robotics (TA)  IEEE-Iran Section  Robot design by SolidWorks (Instructor)  Khajeh Nasir Toosi Univerity of Technology  Engineering Drawing (Lab instructor)  </description>
     </item>
     
     <item>
