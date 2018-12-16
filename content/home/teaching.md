@@ -11,7 +11,7 @@ title = "Teaching"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 60
+weight = 70
 
 +++
 
@@ -33,6 +33,6 @@ weight = 60
 
 - Robot design by SolidWorks (Instructor)
 
-#### Khajeh Nasir Toosi Univerity of Technology 
+#### Khajeh Nasir Toosi Univerity of Technology
 
 - Engineering Drawing (Lab instructor)

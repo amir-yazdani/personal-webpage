@@ -21,7 +21,7 @@ reading_time = false  # Show estimated reading time?
 
   # Show image only in page previews?
   preview_only = false
-  
+
 +++
 
 {{< figure library="1" src="noirs.jpg">}}
@@ -29,11 +29,11 @@ reading_time = false  # Show estimated reading time?
 
 Amir presented in 2018 National Occupational Injury Reduction Symposiums (NOIRS 2018) with the title of
 “Changing Perceptions of Robotics in Industry: Recent  Accomplishment in Safety and Injury Risk Reduction”.
-He discussed what are the old, current and future solution for injury reduction in human-robot collaboration 
+He discussed what are the old, current and future solution for injury reduction in human-robot collaboration
 and mentioned that there will be a new generation of collaborative robots, he names them “intelligent collaborative robots”,
-that they have human biomechanics, ergonomics, and safety included in motion perception, planning and control algorithms 
-of collaborative robots. He reviewed the most cutting-edge researches in ergonomy and safety in HRC/HRI and introduces
-the current challenges in this area of research. He also suggested several new research ideas and opportunities for 
+that they have human biomechanics, ergonomics, and safety included in motion perception, planning and control algorithms
+of collaborative robots. He reviewed the most cutting-edge researches in ergonomics and safety in HRC/HRI and introduces
+the current challenges in this area of research. He also suggested several new research ideas and opportunities for
 both robotics and safety and health communities.
 
 The pdf version of his presentation is available {{% staticref "files/NOIRS2018-AmirYazdani.pdf" "newtab" %}}here{{% /staticref %}}.
