@@ -69,6 +69,32 @@ both robotics and safety and health communities.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Human Pose Estimation in Telemanipulation</title>
+      <link>https://amir-yazdani.github.io/projects/pose_estimation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/projects/pose_estimation/</guid>
+      <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
+with the recent developments in physical human-robot interaction, estimating human posture is a demanding task specially in ergonomics and safety analysis, and adaption of robot motion based on human posture and motion.
+In this project we propose a novel method to estimate human posture in telemanipulation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PAM: A Patient Assistant Mobile Robot for Fall Prevention</title>
+      <link>https://amir-yazdani.github.io/projects/pam/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/projects/pam/</guid>
+      <description>&lt;p&gt;In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.&lt;/p&gt;
+
+&lt;p&gt;Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning. Thus, we have developed a probabilistic algorithm that learns pre-categorized object models using minimal force and motion interactions between the robot and object.&lt;/p&gt;
+
+&lt;p&gt;We account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the aid.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Optimal Design and Fabrication of a 4-DOF Quattrotaar Parallel Robot with Singularity-Free Workspace by ABC and PSO Algorithms</title>
       <link>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
@@ -146,15 +172,6 @@ both robotics and safety and health communities.&lt;/p&gt;
       <pubDate>Sun, 01 Sep 2013 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2013-simulator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On The Inverse Dynamic Problem of a 3-PRRR Parallel Manipulator, Rhe Tripteron</title>
-      <link>https://amir-yazdani.github.io/publication/icrom2013-tripteron/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icrom2013-tripteron/</guid>
       <description></description>
     </item>
     

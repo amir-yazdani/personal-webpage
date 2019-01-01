@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Amir Yazdani</title>
+    <link>https://amir-yazdani.github.io/projects/</link>
+    <description>Recent content in Projects on Amir Yazdani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://amir-yazdani.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Human Pose Estimation in Telemanipulation</title>
+      <link>https://amir-yazdani.github.io/projects/pose_estimation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/projects/pose_estimation/</guid>
+      <description>Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body.</description>
+    </item>
+    
+    <item>
+      <title>PAM: A Patient Assistant Mobile Robot for Fall Prevention</title>
+      <link>https://amir-yazdani.github.io/projects/pam/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/projects/pam/</guid>
+      <description>In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.
+Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -60,6 +60,22 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/projects/pose_estimation/</loc>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/projects/pam/</loc>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</loc>
       <lastmod>2016-01-01T00:00:00-07:00</lastmod>
     </url>
@@ -186,6 +202,15 @@
     
       <loc>https://amir-yazdani.github.io/tags/noirs2018/</loc>
       <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/projects/</loc>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
