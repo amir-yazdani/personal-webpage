@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Improvement of human safety in fault-tolerant human and robot collaboration using convex optimization and receding horizon control.</title>
+      <link>https://amir-yazdani.github.io/talk/niosh2017/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/niosh2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An abstract presented in NOIRS 2018 symposium</title>
       <link>https://amir-yazdani.github.io/post/noirs2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
@@ -52,10 +61,10 @@ both robotics and safety and health communities.&lt;/p&gt;
     
     <item>
       <title>Changing Perceptions of Robotics in Industry: Recent Accomplishment in Safety and Injury Risk Reduction</title>
-      <link>https://amir-yazdani.github.io/talk/example/</link>
+      <link>https://amir-yazdani.github.io/talk/noirs2018/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/talk/example/</guid>
+      <guid>https://amir-yazdani.github.io/talk/noirs2018/</guid>
       <description></description>
     </item>
     
@@ -251,15 +260,6 @@ In this project we propose a novel method to estimate human posture in telemanip
 
 &lt;/figure&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Workspace Determination of Planar Parallel Robots via Progressive Growing Neural Gas Network</title>
-      <link>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</link>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</guid>
-      <description></description>
     </item>
     
   </channel>

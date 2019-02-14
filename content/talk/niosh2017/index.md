@@ -1,5 +1,5 @@
 +++
-title = "Improvement of human safety in fault-tolerant human and robot collaboration using convex optimization and receding horizon control."
+title = "Improvement of Human Safety in Fault-Tolerant Human and Robot Collaboration Using Convex Optimization and Receding Horizon Control."
 date = 2017-06-21T00:00:00  # Schedule page publish date.
 draft = false
 
@@ -31,7 +31,7 @@ featured = false
 #   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["safety_hri"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
