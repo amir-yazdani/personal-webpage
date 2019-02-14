@@ -33,7 +33,7 @@ selected = false
 #   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["tripteron"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -52,7 +52,7 @@ url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "tripteron"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -72,7 +72,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
-  caption = "The 4-DOF urban bus driving simulator"
+  caption = "The 4-DOF decoupled Cartesian parallel robot"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight

@@ -31,15 +31,15 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
+#   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["ft_motion_planning"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
+#   E.g. `slides = "example-slides"` references
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides = ""
@@ -53,7 +53,7 @@ url_pdf = "https://ieeexplore.ieee.org/abstract/document/7367812"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "ft_motion_planning"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -70,7 +70,7 @@ doi = " 10.1109/ICRoM.2015.7367812"
 math = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = "Effect of fault-tolerance in minimizing end-effector velocity jump"

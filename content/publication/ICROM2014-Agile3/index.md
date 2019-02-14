@@ -33,7 +33,7 @@ selected = false
 #   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["agileeye3"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -52,7 +52,7 @@ url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "agileeye3"
 url_slides = ""
 url_video = ""
 url_poster = ""

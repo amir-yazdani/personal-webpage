@@ -20,6 +20,14 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/talk/example/</loc>
+      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
@@ -29,14 +37,6 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://amir-yazdani.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
     
@@ -60,7 +60,7 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/projects/pose_estimation/</loc>
+      <loc>https://amir-yazdani.github.io/project/pose_estimation/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/projects/pam/</loc>
+      <loc>https://amir-yazdani.github.io/project/pam/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
     
@@ -108,6 +108,30 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/project/ft_motion_planning/</loc>
+      <lastmod>2015-06-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/mpc_path_planning/</loc>
+      <lastmod>2015-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/quattrotaar/</loc>
+      <lastmod>2015-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</loc>
       <lastmod>2014-09-09T00:00:00-06:00</lastmod>
     </url>
@@ -140,6 +164,14 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/project/pgngn/</loc>
+      <lastmod>2014-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/publication/icrom2013-simulator/</loc>
       <lastmod>2013-09-01T00:00:00-06:00</lastmod>
     </url>
@@ -150,6 +182,54 @@
     
       <loc>https://amir-yazdani.github.io/publication/icrom2013-tripteron/</loc>
       <lastmod>2013-09-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/agileeye2/</loc>
+      <lastmod>2013-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/agileeye3/</loc>
+      <lastmod>2013-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/tripteron/</loc>
+      <lastmod>2012-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/stewart/</loc>
+      <lastmod>2012-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/bus_simulator/</loc>
+      <lastmod>2010-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/virsense/</loc>
+      <lastmod>2010-04-27T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -209,7 +289,7 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/projects/</loc>
+      <loc>https://amir-yazdani.github.io/project/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -221,6 +301,14 @@
       <loc>https://amir-yazdani.github.io/publication_types/</loc>
       <lastmod>2018-09-01T00:00:00-06:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
     
   

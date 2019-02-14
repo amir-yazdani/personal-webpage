@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Human Pose Estimation in Telemanipulation"
+title = "Human Posture Estimation in pHRI"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00

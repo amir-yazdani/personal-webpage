@@ -51,6 +51,15 @@ both robotics and safety and health communities.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Changing Perceptions of Robotics in Industry: Recent Accomplishment in Safety and Injury Risk Reduction</title>
+      <link>https://amir-yazdani.github.io/talk/example/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A New Neural Gas Network Approach for Obtaining The Singularity-Free Workspace of 3-DOF Planar Parallel Manipulators</title>
       <link>https://amir-yazdani.github.io/publication/imeche2016-pgngn/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 -0600</pubDate>
@@ -69,11 +78,11 @@ both robotics and safety and health communities.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Human Pose Estimation in Telemanipulation</title>
-      <link>https://amir-yazdani.github.io/projects/pose_estimation/</link>
+      <title>Human Posture Estimation in pHRI</title>
+      <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/projects/pose_estimation/</guid>
+      <guid>https://amir-yazdani.github.io/project/pose_estimation/</guid>
       <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
 with the recent developments in physical human-robot interaction, estimating human posture is a demanding task specially in ergonomics and safety analysis, and adaption of robot motion based on human posture and motion.
 In this project we propose a novel method to estimate human posture in telemanipulation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
@@ -82,10 +91,10 @@ In this project we propose a novel method to estimate human posture in telemanip
     
     <item>
       <title>PAM: A Patient Assistant Mobile Robot for Fall Prevention</title>
-      <link>https://amir-yazdani.github.io/projects/pam/</link>
+      <link>https://amir-yazdani.github.io/project/pam/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/projects/pam/</guid>
+      <guid>https://amir-yazdani.github.io/project/pam/</guid>
       <description>&lt;p&gt;In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.&lt;/p&gt;
 
 &lt;p&gt;Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning. Thus, we have developed a probabilistic algorithm that learns pre-categorized object models using minimal force and motion interactions between the robot and object.&lt;/p&gt;
@@ -131,47 +140,125 @@ In this project we propose a novel method to estimate human posture in telemanip
     </item>
     
     <item>
+      <title>Fault-Tolerant Motion Planning</title>
+      <link>https://amir-yazdani.github.io/project/ft_motion_planning/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/ft_motion_planning/</guid>
+      <description>&lt;p&gt;In this project we focused on making the motion planning of the robots fault-tolerant. We started with the simple Pseudo inverse approach to making the joint trajectory planning of planar redundant serial robots the fault tolerant. We made a 4-DOF planar robot (TaArm) to do the experimental studies to show the performance of the proposed method.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fault1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;End-effector’s linear velocity of the manipulator. The failure occurs at tf = 15s and the simulation time is 20s.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;The Pseudo inverse method has some limitations so we mixed the failure-tolerant problem with optimal motion planning problem and provided an algorithm that solves both at the same time. The new algorithm is based on convex optimization, MPC, and quadratic programming and prevents collision between obstacles/human and robot by real-time re-planning and minimizes harmful velocity jumps when a failure occurs in robot actuators while the robot completes the desired task. We modeled the joint failure into the optimization problem and solved task completion problem, minimizing velocity jump due to failure problem and optimal collision-free motion planning problem at the same time.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;fault2.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Angular velocity of the 1st joint. The failure occurs at t=14s in the 3rd joint and the whole simulation time is 20s.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Collision-Free Optimal Path Planning</title>
+      <link>https://amir-yazdani.github.io/project/mpc_path_planning/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/mpc_path_planning/</guid>
+      <description>&lt;p&gt;This project focuses on the optimal path planning of redundant planar serial robots, while avoiding obstacles within its workspace. A synergy-based algorithm between convex optimization, disjunctive programming and receding horizon is employed to the end of achieving advantages such as finding the global optimum solution and low computational time.&lt;/p&gt;
+
+&lt;p&gt;This algorithm can handle both static and dynamic obstacles due to its replanning scheme. It has been implemented on redundant serial robots, parallel robots, mobile robots and a group of mobile robots.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;mpc1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Simulation results of minimum time (left) and minimum path (right) optimal path planning with dynamic obstacles.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;mpc23.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Simulation results of optimal path planning on thre Tripteron parallel robot.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QuattroTaar 4-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/quattrotaar/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/quattrotaar/</guid>
+      <description>&lt;p&gt;This project includes design, develop and kinematics analysis of QuattroTaar 3-DOF parallel robot inspired by the Quattro parallel robot.
+ I designed the robot with a singularity-free workspace, developed the robot for very fast pick and place applications. The key feature of this design is how to design low friction joints. We used self-lubricant materials. Links are also made of costume made carbon-fibers to decrease the inertia and mass.
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;quattrotaar1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;CAD model of the QuattroTaar&amp;rsquo;s limb.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Workspace Determination of Planar Parallel Robots via Progressive Growing Neural Gas Network</title>
       <link>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</link>
       <pubDate>Tue, 09 Sep 2014 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design, Development, Dynamic Analysis and Control of a 2-DOF Spherical Parallel Mechanism</title>
-      <link>https://amir-yazdani.github.io/publication/icrom2014-agile2/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icrom2014-agile2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dynamic Modeling and Computed Torque Control of a 3-DOF Spherical Parallel Manipulator</title>
-      <link>https://amir-yazdani.github.io/publication/icrom2014-agile3/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icrom2014-agile3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VirSense: a Novel Haptic Device with Fixed-Base Motors and a Gravity Compensation System</title>
-      <link>https://amir-yazdani.github.io/publication/indrobots2014-virsense/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/indrobots2014-virsense/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design and Kinematic Analysis of a 4-DOF Serial-Parallel Manipulator for Urban Bus Driving Simulator</title>
-      <link>https://amir-yazdani.github.io/publication/icrom2013-simulator/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icrom2013-simulator/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Amir Yazdani</title>
+    <link>https://amir-yazdani.github.io/project/</link>
+    <description>Recent content in Projects on Amir Yazdani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://amir-yazdani.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Human Posture Estimation in pHRI</title>
+      <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pose_estimation/</guid>
+      <description>Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body.</description>
+    </item>
+    
+    <item>
+      <title>PAM: A Patient Assistant Mobile Robot for Fall Prevention</title>
+      <link>https://amir-yazdani.github.io/project/pam/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pam/</guid>
+      <description>In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.
+Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning.</description>
+    </item>
+    
+    <item>
+      <title>Fault-Tolerant Motion Planning</title>
+      <link>https://amir-yazdani.github.io/project/ft_motion_planning/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/ft_motion_planning/</guid>
+      <description>In this project we focused on making the motion planning of the robots fault-tolerant. We started with the simple Pseudo inverse approach to making the joint trajectory planning of planar redundant serial robots the fault tolerant. We made a 4-DOF planar robot (TaArm) to do the experimental studies to show the performance of the proposed method.
+End-effector’s linear velocity of the manipulator. The failure occurs at tf = 15s and the simulation time is 20s.</description>
+    </item>
+    
+    <item>
+      <title>Collision-Free Optimal Path Planning</title>
+      <link>https://amir-yazdani.github.io/project/mpc_path_planning/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/mpc_path_planning/</guid>
+      <description>This project focuses on the optimal path planning of redundant planar serial robots, while avoiding obstacles within its workspace. A synergy-based algorithm between convex optimization, disjunctive programming and receding horizon is employed to the end of achieving advantages such as finding the global optimum solution and low computational time.
+This algorithm can handle both static and dynamic obstacles due to its replanning scheme. It has been implemented on redundant serial robots, parallel robots, mobile robots and a group of mobile robots.</description>
+    </item>
+    
+    <item>
+      <title>QuattroTaar 4-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/quattrotaar/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/quattrotaar/</guid>
+      <description>This project includes design, develop and kinematics analysis of QuattroTaar 3-DOF parallel robot inspired by the Quattro parallel robot. I designed the robot with a singularity-free workspace, developed the robot for very fast pick and place applications. The key feature of this design is how to design low friction joints. We used self-lubricant materials. Links are also made of costume made carbon-fibers to decrease the inertia and mass. CAD model of the QuattroTaar&amp;rsquo;s limb.</description>
+    </item>
+    
+    <item>
+      <title>Progressive Growing Naturak Gas Network (PGNGN)</title>
+      <link>https://amir-yazdani.github.io/project/pgngn/</link>
+      <pubDate>Sun, 27 Apr 2014 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pgngn/</guid>
+      <description>This project, proposes a new extension of the Growing Neural Gas Network, called the Progressive Growing Neural Gas Network (PGNGN), for the application of kinematic investigation of parallel mechanisms, with more emphasis on the singularity-free workspace determination. In fact, PGNGN leads to a general approach in order to obtain the topology of the workspace. In this algorithm, the network starts to grow by taking into account new data points close to its border neurons by resorting to the so-called boundary data generation procedure.</description>
+    </item>
+    
+    <item>
+      <title>Cheshm-e-Chabok 2-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/agileeye2/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/agileeye2/</guid>
+      <description>This project includes design, develop, kinematics and dynamics analysis of a 3-DOF Cartesian robot inspired by the AgileEye2 parallel robot. I designed and developed the robot and was a key member to analyze its kinematics and dynamics using the Euler-Lagrangian method and control the robot using computed-torque control method. The key characteristic of this robot is to provide fast spherical motion similar to the human eye so we tested it with visual tracking and visual servoing applications and also used it as a camera stabilizer.</description>
+    </item>
+    
+    <item>
+      <title>Cheshm-e-Chabok 3-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/agileeye3/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/agileeye3/</guid>
+      <description>This project includes design, kinematics and dynamics analysis of a 3-DOF Cartesian robot inspired by the AgileEye3 parallel robot. I designed the robot and was the key member to do the kinematics and dynamics analysis using the Euler-Lagrangian method and also control of the device using computed-torque control method. This robot also provides fast 3-DOF spherical motion. We used this robot for tracking and also for simulating the motion of a human neck for a human head-like robot.</description>
+    </item>
+    
+    <item>
+      <title>A Fully-Decoupled Cartesian 3-PRRR Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/tripteron/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/tripteron/</guid>
+      <description>This project includes design, develop, kinematics and dynamics analysis of a 3-DOF Cartesian robot inspired by the Tripteron robot. I optimally designed the mechanism to maximize the singularity-free workspace using geometry approaches using SolidWorks considering all joint limits and mechanical interface of joints. Later, I was involved with the optimal collision-free path planning of this robot. The accuracy and working speed due to its parallel structure, features this robot to be used for material handling, fast pick and place tasks, and large-scale 3D printing.</description>
+    </item>
+    
+    <item>
+      <title>A Pneumatic 6-DOF Gough-Stewart Robot</title>
+      <link>https://amir-yazdani.github.io/project/stewart/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/stewart/</guid>
+      <description>This project includes design, and develop a pneumatic 6-DOF Gough-Stewart parallel robot. In which, I did the kinematic design and optimized the design as a small testbed for driving and aircraft simulators. The design of the mechanism based on the characteristics of pneumatic actuators made it a very challenging design. CAD model of the pneumatic 6-DOF Gough-Stewart parallel robot.</description>
+    </item>
+    
+    <item>
+      <title>Bus Driving Simuator</title>
+      <link>https://amir-yazdani.github.io/project/bus_simulator/</link>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/bus_simulator/</guid>
+      <description>This project includes the design and development of three types of urban bus driving simulators at Virtual Reality Laboratory at Khajeh Nasir Toosi University of Technology in Iran under contract with Tehran Bus Company. I designed a novel 4-DOF serial-parallel robot to be the base platform of driving simulators. It is a hybrid mechanism benefiting from the advantages of both serial and parallel mechanisms. The main challenge in this project was to design a mechanism structure based on the required motion for the driving simulators to provide the user with the most realistic feeling of driving.</description>
+    </item>
+    
+    <item>
+      <title>VirSense Haptic Device</title>
+      <link>https://amir-yazdani.github.io/project/virsense/</link>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/virsense/</guid>
+      <description>This project included the design and implementation of VirSense, a novel 6-DoF haptic device with an emphasis on its gravity compensation and fixed-base motors. VirSense has a serial linkage mechanism and it is the 1st serial haptic device that uses a passive system for gravitational compensation. The passive system includes linear springs to compensate the forces and torques generated by the weight of the moving part of the robot without increasing the effective mass and inertia of the robot.</description>
+    </item>
+    
+  </channel>
+</rss>
