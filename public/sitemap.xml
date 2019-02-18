@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/course_project/twitter_bots/</loc>
+      <lastmod>2017-12-20T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/talk/niosh2017/</loc>
       <lastmod>2017-06-21T00:00:00-06:00</lastmod>
     </url>
@@ -29,6 +37,14 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/talk/noirs2018/</loc>
+      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/talk/robotics_seminar/</loc>
       <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
     
@@ -68,6 +84,30 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/course_project/push_planning/</loc>
+      <lastmod>2016-05-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/course_project/mobile_localization/</loc>
+      <lastmod>2016-05-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/course_project/inv_pendulum/</loc>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/project/pose_estimation/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
@@ -78,6 +118,14 @@
     
       <loc>https://amir-yazdani.github.io/project/pam/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/safety_hri/</loc>
+      <lastmod>2016-03-27T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -281,6 +329,15 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/course_project/</loc>
+      <lastmod>2017-12-20T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

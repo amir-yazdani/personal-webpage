@@ -20,7 +20,57 @@
     </item>
     
     <item>
-      <title>Improvement of human safety in fault-tolerant human and robot collaboration using convex optimization and receding horizon control.</title>
+      <title>The Search for Twitter Spam Bots</title>
+      <link>https://amir-yazdani.github.io/course_project/twitter_bots/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/course_project/twitter_bots/</guid>
+      <description>&lt;p&gt;Course: CS 6350 - Machine Learning&lt;/p&gt;
+
+&lt;p&gt;This course project includes finding spammer aand bot accounts in Twitter using machine learning techniques. The dataset is provided at the &lt;a href=&#34;https://www.kaggle.com/c/uofu-ml-fall-2017&#34; target=&#34;_blank&#34;&gt;Kaggle website&lt;/a&gt; and I have compared the performance of the following algorithms:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ID3 Decision Tree&lt;/li&gt;
+&lt;li&gt;CART: Classification and Regression Trees&lt;/li&gt;
+&lt;li&gt;Gaussian Naive Bayes&lt;/li&gt;
+&lt;li&gt;SVM&lt;/li&gt;
+&lt;li&gt;Logistic Regression&lt;/li&gt;
+&lt;li&gt;SVM on CART&lt;/li&gt;
+&lt;li&gt;Bagged Forest CART&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The results show that Bagged Forest Cart algorith and CART has the best accuracy on finding smap account.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;twitter_table.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;twitter_accuracy.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Accuracy of different algorithms.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improvement of Human Safety in Fault-Tolerant Human and Robot Collaboration Using Convex Optimization and Receding Horizon Control.</title>
       <link>https://amir-yazdani.github.io/talk/niosh2017/</link>
       <pubDate>Wed, 21 Jun 2017 00:00:00 -0600</pubDate>
       
@@ -69,6 +119,15 @@ both robotics and safety and health communities.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Changing Perceptions of Robotics in Industry: Recent Accomplishment in Safety and Injury Risk Reduction</title>
+      <link>https://amir-yazdani.github.io/talk/robotics_seminar/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/robotics_seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A New Neural Gas Network Approach for Obtaining The Singularity-Free Workspace of 3-DOF Planar Parallel Manipulators</title>
       <link>https://amir-yazdani.github.io/publication/imeche2016-pgngn/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 -0600</pubDate>
@@ -87,7 +146,140 @@ both robotics and safety and health communities.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Human Posture Estimation in pHRI</title>
+      <title>Manipulation Planning of A Box Using A Mobile Robot</title>
+      <link>https://amir-yazdani.github.io/course_project/push_planning/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/course_project/push_planning/</guid>
+      <description>&lt;p&gt;Course: ME CS 6320- 3D Computer Vision&lt;/p&gt;
+
+&lt;p&gt;Mobility is one of the most important factors that contributes to quality of life. Each year, about 35% of individuals over age 65 experience one or more falls. Falls are the third leading cause of chronic disability worldwide6. In this project, we tried to address the concerns with home falls with a low-cost, intelligent mobile robot that will provide mobility aids, such as a walker, in the event that it determines that risk of fall is high.&lt;/p&gt;
+
+&lt;p&gt;As the project for Motion Planning course, a simplified version of the aforementioned bigger problem was defined in a simulation-based approach. In the proposed project, the problem includes the manipulation of a walker around an obstacle-filled area using a Roomba robot from a start position to a goal position. For simulation studies, all objects will be projected to the 2D plane. The Roomba as a circle, the walker as a box, and obstacles as simple polygons. Several assumptions for the problem have been made:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Only pushing has been used for manipulating the box.&lt;/li&gt;
+&lt;li&gt;Start and goal position of the box and start position of the robot are known.&lt;/li&gt;
+&lt;li&gt;Obstacles and their position are known.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The proposed approach to solve the above problem includes a high-level planner for push planning for the box and a lower level planner for motion planning of the robot. Based on what has been learned up to the point of proposal, a modified A* planning algorithm as a high-level planner in combination with RRT algorithm were proposed as the solution. The main contribution of this project is the development of a collision-free push planning algorithm for a box by a Roomba robot which includes a higher-level A* planner and a lower level RRT planner. Simulation studies have been done in Python for different environments and with different start and goal positions for the robot and box. Results reveal the ability of the algorithm to do a collision-free manipulation for the box.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;pushplanning2.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Simulation results on different environments. In left column, robot initial poses are yellow, box initial poses are red, box goal poses are green. In right column, robot path are yellow, box bath are green and visited nodes for box are red.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/SSRHkvtLvPM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/C7T5bCbeFek&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ua2OfplkcjE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Robot Visual Localization and 3D Map Generation</title>
+      <link>https://amir-yazdani.github.io/course_project/mobile_localization/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/course_project/mobile_localization/</guid>
+      <description>&lt;p&gt;Course: ME CS 6320- 3D Computer Vision&lt;/p&gt;
+
+&lt;p&gt;In this project, we will implement a Visual Odometry method on a Roomba iCreate 2 which is equipped with a Microsoft Kinect RGB-D sensor for localization and map generation. Although the mobile robot is moving on a 2D plane (ground), the localization and map generation algorithms are for 3D environments, so the final results are in 3D. At the end, we will evaluate our approach by comparing resulted localization with results from robot odometry, LIDAR sensor localization, or GPS data. Finally, we made a ROS package which includes different nodes for various parts of the algorithm.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;mobile1.jpg&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Indoor localization using graph-based SLAM with Kinect, LIDAR, and robot odometry.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Double-inverted pendulum</title>
+      <link>https://amir-yazdani.github.io/course_project/inv_pendulum/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/course_project/inv_pendulum/</guid>
+      <description>&lt;p&gt;Course: ME EN 6240- Advanced Mechatronics&lt;/p&gt;
+
+&lt;p&gt;Control of the unstable inverted pendulum is a common research topic in the area of Dynamics and Controls. The project goal was to design, implement and test all of the mechanical, electrical, and software systems necessary to stabilize and control a double inverted pendulum. Mechanical design was completed in Solidworks and the manufactured parts were 3D printed. Electrical signal conditioning was accomplished through passive and active componentry and then integrated to a dsPIC microcontroller.&lt;/p&gt;
+
+&lt;p&gt;All final software was developed in MATLAB Simulink then converted to C code to be used in the dsPIC. The MATLAB development environment provides an easy to use system for future attempts at controlling the system. Swing up and control of a single inverted pendulum was successful though further controller tuning could yield a better system performance.&lt;/p&gt;
+
+&lt;p&gt;The hardware and software for a double inverted pendulum
+was successfully implemented though stable control was never
+achieved. Further tuning of the LQR controller parameters would
+yield a stable system.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;pend1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;The double-inverted pendulum on a cart.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;pend2.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Simulation result of the step response for the double-inverted pendulum&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human Posture Estimation in p-HRI</title>
       <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
@@ -113,153 +305,40 @@ In this project we propose a novel method to estimate human posture in telemanip
     </item>
     
     <item>
+      <title>Safe Motion Planning in Shared Autonomy</title>
+      <link>https://amir-yazdani.github.io/project/safety_hri/</link>
+      <pubDate>Sun, 27 Mar 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/safety_hri/</guid>
+      <description>&lt;p&gt;As human and robot collaboration become more intimate, and more intelligent robots are being used in both healthcare and manufacturing environments, the safety of humans working closely with companion or co-robots is becoming a challenging issue. As a result, there is a great need for developing improved control algorithms and better guidelines to allow humans and robots to safely work together in a synergistic fashion. The nature of human variability requires the robot to be able to learn and adapt to these changes while maintaining safety in the presence of an often unpredictable human worker.&lt;/p&gt;
+
+&lt;p&gt;In this project, we use the algorithm we developed previously for collision-free and fault-tolerant motion planniong of serial robots and we add safety features including minimum seperation distance and relative velocity of robot and the human arm. We are also adding the motion prediction of human during normal pick and place task to improve the performanc of the motion planning algorithm in respect of both the safety and the productivity.&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;safety_hri1.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;The shared autonomy scenario including the fauilure in the robot&amp;rsquo;s joints.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Optimal Design and Fabrication of a 4-DOF Quattrotaar Parallel Robot with Singularity-Free Workspace by ABC and PSO Algorithms</title>
       <link>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Optimal Motion Planning of Redundant Planar Serial Robots Using A Synergy-Based Approach of Convex Optimization, Disjunctive Programming and Receding Horizon</title>
-      <link>https://amir-yazdani.github.io/publication/imeche2016-optimal/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/imeche2016-optimal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Experimental Study on The Failure-Tolerant Control of a Redundant Planar Serial Manipulator Via Pseudo-Inverse Approach</title>
-      <link>https://amir-yazdani.github.io/publication/icrom2015-fault/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icrom2015-fault/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design and Kinematic Analysis of a 4-DOF Serial-Parallel Manipulator for a Driving Simulator</title>
-      <link>https://amir-yazdani.github.io/publication/ijr2015-simulator/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/ijr2015-simulator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fault-Tolerant Motion Planning</title>
-      <link>https://amir-yazdani.github.io/project/ft_motion_planning/</link>
-      <pubDate>Sat, 27 Jun 2015 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/ft_motion_planning/</guid>
-      <description>&lt;p&gt;In this project we focused on making the motion planning of the robots fault-tolerant. We started with the simple Pseudo inverse approach to making the joint trajectory planning of planar redundant serial robots the fault tolerant. We made a 4-DOF planar robot (TaArm) to do the experimental studies to show the performance of the proposed method.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;fault1.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;End-effector’s linear velocity of the manipulator. The failure occurs at tf = 15s and the simulation time is 20s.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;p&gt;The Pseudo inverse method has some limitations so we mixed the failure-tolerant problem with optimal motion planning problem and provided an algorithm that solves both at the same time. The new algorithm is based on convex optimization, MPC, and quadratic programming and prevents collision between obstacles/human and robot by real-time re-planning and minimizes harmful velocity jumps when a failure occurs in robot actuators while the robot completes the desired task. We modeled the joint failure into the optimization problem and solved task completion problem, minimizing velocity jump due to failure problem and optimal collision-free motion planning problem at the same time.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;fault2.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Angular velocity of the 1st joint. The failure occurs at t=14s in the 3rd joint and the whole simulation time is 20s.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Collision-Free Optimal Path Planning</title>
-      <link>https://amir-yazdani.github.io/project/mpc_path_planning/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/mpc_path_planning/</guid>
-      <description>&lt;p&gt;This project focuses on the optimal path planning of redundant planar serial robots, while avoiding obstacles within its workspace. A synergy-based algorithm between convex optimization, disjunctive programming and receding horizon is employed to the end of achieving advantages such as finding the global optimum solution and low computational time.&lt;/p&gt;
-
-&lt;p&gt;This algorithm can handle both static and dynamic obstacles due to its replanning scheme. It has been implemented on redundant serial robots, parallel robots, mobile robots and a group of mobile robots.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;mpc1.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Simulation results of minimum time (left) and minimum path (right) optimal path planning with dynamic obstacles.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;mpc23.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Simulation results of optimal path planning on thre Tripteron parallel robot.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>QuattroTaar 4-DOF Parallel Robot</title>
-      <link>https://amir-yazdani.github.io/project/quattrotaar/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/quattrotaar/</guid>
-      <description>&lt;p&gt;This project includes design, develop and kinematics analysis of QuattroTaar 3-DOF parallel robot inspired by the Quattro parallel robot.
- I designed the robot with a singularity-free workspace, developed the robot for very fast pick and place applications. The key feature of this design is how to design low friction joints. We used self-lubricant materials. Links are also made of costume made carbon-fibers to decrease the inertia and mass.
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;quattrotaar1.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;CAD model of the QuattroTaar&amp;rsquo;s limb.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -24,7 +24,7 @@ slides = ""
 
 
 # Links (optional).
-url_pdf = "Amir Yazdani- search-twitter-bots-report.pdf"
+url_pdf = "files/papers/Amir Yazdani- search-twitter-bots-report.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""

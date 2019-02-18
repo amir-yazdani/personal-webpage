@@ -24,7 +24,7 @@ slides = ""
 
 
 # Links (optional).
-url_pdf = "Jacob-Amir-Pendulum final report.pdf"
+url_pdf = "files/papers/Jacob-Amir-Pendulum final report.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
@@ -47,7 +47,7 @@ Course: ME EN 6240- Advanced Mechatronics
 
 Control of the unstable inverted pendulum is a common research topic in the area of Dynamics and Controls. The project goal was to design, implement and test all of the mechanical, electrical, and software systems necessary to stabilize and control a double inverted pendulum. Mechanical design was completed in Solidworks and the manufactured parts were 3D printed. Electrical signal conditioning was accomplished through passive and active componentry and then integrated to a dsPIC microcontroller.
 
-All final software was developed in MATLAB Simulink then converted to C code to be used in the dsPIC. The MATLAB development environment provides an easy to use system for future attempts at controlling the system. Swing up and control of a single inverted pendulum was successful though further controller tuning could yield a better system performance. 
+All final software was developed in MATLAB Simulink then converted to C code to be used in the dsPIC. The MATLAB development environment provides an easy to use system for future attempts at controlling the system. Swing up and control of a single inverted pendulum was successful though further controller tuning could yield a better system performance.
 
 The hardware and software for a double inverted pendulum
 was successfully implemented though stable control was never
