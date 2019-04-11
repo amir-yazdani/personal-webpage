@@ -15,7 +15,8 @@ weight = 1
     "Learning and Planning Under Uncertainty",
     "Artificial Intelligence",
     "Probabilistic Robotics",
-    "Telemanipulation and Haptic Guidance"
+    "Telemanipulation",
+    "Haptic"
   ]
 
 # List your qualifications (such as academic degrees).
