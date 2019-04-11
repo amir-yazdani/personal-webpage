@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
+      <link>https://amir-yazdani.github.io/talk/nora2019/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dynamics Model Learning and Manipulation Planning for Objects in Hospitals Using a Patient Assistant Mobile (PAM) Robot</title>
       <link>https://amir-yazdani.github.io/publication/iros2018-pam/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 -0600</pubDate>
@@ -329,15 +338,6 @@ In this project we propose a novel method to estimate human posture in telemanip
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimal Motion Planning of Redundant Planar Serial Robots Using A Synergy-Based Approach of Convex Optimization, Disjunctive Programming and Receding Horizon</title>
-      <link>https://amir-yazdani.github.io/publication/imeche2016-optimal/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/imeche2016-optimal/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 21 Jun 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
+      <link>https://amir-yazdani.github.io/talk/nora2019/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Improvement of Human Safety in Fault-Tolerant Human and Robot Collaboration Using Convex Optimization and Receding Horizon Control.</title>

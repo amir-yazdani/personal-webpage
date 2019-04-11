@@ -47,7 +47,7 @@ Many common objects found inside hospital rooms and personal dwellings have legs
       
       <guid>https://amir-yazdani.github.io/project/ft_motion_planning/</guid>
       <description>In this project we focused on making the motion planning of the robots fault-tolerant. We started with the simple Pseudo inverse approach to making the joint trajectory planning of planar redundant serial robots the fault tolerant. We made a 4-DOF planar robot (TaArm) to do the experimental studies to show the performance of the proposed method.
-End-effector’s linear velocity of the manipulator. The failure occurs at tf = 15s and the simulation time is 20s.</description>
+ End-effector’s linear velocity of the manipulator. The failure occurs at tf = 15s and the simulation time is 20s.</description>
     </item>
     
     <item>
@@ -66,11 +66,11 @@ This algorithm can handle both static and dynamic obstacles due to its replannin
       <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/quattrotaar/</guid>
-      <description>This project includes design, develop and kinematics analysis of QuattroTaar 3-DOF parallel robot inspired by the Quattro parallel robot. I designed the robot with a singularity-free workspace, developed the robot for very fast pick and place applications. The key feature of this design is how to design low friction joints. We used self-lubricant materials. Links are also made of costume made carbon-fibers to decrease the inertia and mass. CAD model of the QuattroTaar&amp;rsquo;s limb.</description>
+      <description>This project includes design, develop and kinematics analysis of QuattroTaar 3-DOF parallel robot inspired by the Quattro parallel robot. I designed the robot with a singularity-free workspace, developed the robot for very fast pick and place applications. The key feature of this design is how to design low friction joints. We used self-lubricant materials. Links are also made of costume made carbon-fibers to decrease the inertia and mass.  CAD model of the QuattroTaar&amp;rsquo;s limb.</description>
     </item>
     
     <item>
-      <title>Progressive Growing Naturak Gas Network (PGNGN)</title>
+      <title>Progressive Growing Natural Gas Network (PGNGN)</title>
       <link>https://amir-yazdani.github.io/project/pgngn/</link>
       <pubDate>Sun, 27 Apr 2014 00:00:00 -0600</pubDate>
       
@@ -111,7 +111,7 @@ This algorithm can handle both static and dynamic obstacles due to its replannin
       <pubDate>Fri, 27 Apr 2012 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/stewart/</guid>
-      <description>This project includes design, and develop a pneumatic 6-DOF Gough-Stewart parallel robot. In which, I did the kinematic design and optimized the design as a small testbed for driving and aircraft simulators. The design of the mechanism based on the characteristics of pneumatic actuators made it a very challenging design. CAD model of the pneumatic 6-DOF Gough-Stewart parallel robot.</description>
+      <description>This project includes design, and develop a pneumatic 6-DOF Gough-Stewart parallel robot. In which, I did the kinematic design and optimized the design as a small testbed for driving and aircraft simulators. The design of the mechanism based on the characteristics of pneumatic actuators made it a very challenging design.  CAD model of the pneumatic 6-DOF Gough-Stewart parallel robot.</description>
     </item>
     
     <item>

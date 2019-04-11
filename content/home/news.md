@@ -17,6 +17,7 @@ weight = 30
 
 | Date                            | Description                    |
 | --------------------------------| ------------------------------ |
+|   April 2019      |Awarded the 2019 ASSP Foundation Scholarship
 |   October 2018|An {{% staticref "files/papers/NOIRS2018-AmirYazdani.pdf" "newtab" %}}abstract{{% /staticref %}} presented in NOIRS 2018, Morgantown, WV|
 |   October 2018                       |{{% staticref "files/papers/sabbagh-iros-2018-dynamics-learning.pdf" "newtab" %}}Paper{{% /staticref %}} presented in IROS 2018, Mardid, Spain|
 |   April 2018      |Awarded the 2018 ASSP Foundation Scholarship|
