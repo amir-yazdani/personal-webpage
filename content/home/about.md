@@ -16,7 +16,7 @@ weight = 1
     "Artificial Intelligence",
     "Probabilistic Robotics",
     "Telemanipulation",
-    "Haptic"
+    "Haptics"
   ]
 
 # List your qualifications (such as academic degrees).
