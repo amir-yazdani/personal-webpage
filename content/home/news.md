@@ -25,6 +25,6 @@ weight = 30
 |   May 2018     |Received the 2018 Dr. Paul Richards's Safe Workplace Scholarship|
 |   July 2017     |Poster presented in  ICAMPAM 2018, Bethesda, MD|
 |   May 2017     |Received the 2017 Dr. Paul Richards's Safe Workplace Scholarship|
-|   May 2017     |Abstract presented in 2017 NOISH State of The Science Conference, Aurora, CO|
+|   May 2017     |Abstract presented in 2017 NIOSH State of The Science Conference, Aurora, CO|
 |   May 2017     |Abstract presented in NORA 2017, Salt Lake City, UT|
 |   July 2016     |Received the $6,500 NIOSH Pilot Project grant from RMCOEH|
