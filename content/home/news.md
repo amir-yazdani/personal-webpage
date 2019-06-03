@@ -17,7 +17,7 @@ weight = 30
 
 | Date                            | Description                    |
 | --------------------------------| ------------------------------ |
-|   May 2019      |Will spend the summer 2019 at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) as a Robotic Research Intern
+|   May 2019      |Will spend the summer 2019 at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotic Research Intern
 |   April 2019      |Received the 2019 Dr. Paul Richards's Safe Workplace [Scholarship](https://ergo.mech.utah.edu/2019/04/18/2019-paul-s-richards-wcf-safe-workplace-scholarship/)
 |   April 2019      |Received the 2019 ASSP Foundation Scholarship
 |   October 2018|An {{% staticref "files/papers/NOIRS2018-AmirYazdani.pdf" "newtab" %}}abstract{{% /staticref %}} presented in NOIRS 2018, Morgantown, WV|
