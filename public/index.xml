@@ -11,6 +11,45 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
+      <link>https://amir-yazdani.github.io/post/noirs2018/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/post/noirs2018/</guid>
+      <description>&lt;p&gt;1) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/gt-ros-pkg/hrl-kdl.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2) install &lt;code&gt;pykd_utils&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl/pykdl_utils
+python setup.py build
+sudo python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3) install &lt;code&gt;hrl_geom&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/hrl-kdl/hrl_geom/
+python setup.py build
+sudo python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;4) install &lt;code&gt;urdf_parser&lt;/code&gt; and &lt;code&gt;urdfdom-py&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install ros-kinetic-urdf-parser-plugin
+sudo apt-get install ros-kinetic-urdfdom-py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;5) building the catkin workspace&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws
+catkin build
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
       <link>https://amir-yazdani.github.io/talk/nora2019/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0600</pubDate>
@@ -85,37 +124,6 @@
       
       <guid>https://amir-yazdani.github.io/talk/niosh2017/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>An abstract presented in NOIRS 2018 symposium</title>
-      <link>https://amir-yazdani.github.io/post/noirs2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/post/noirs2018/</guid>
-      <description>
-
-
-  
-
-&lt;figure&gt;
-
-&lt;img src=&#34;https://amir-yazdani.github.io/img/noirs.jpg&#34; /&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Amir presented in 2018 National Occupational Injury Reduction Symposiums (NOIRS 2018) with the title of
-“Changing Perceptions of Robotics in Industry: Recent  Accomplishment in Safety and Injury Risk Reduction”.
-He discussed what are the old, current and future solution for injury reduction in human-robot collaboration
-and mentioned that there will be a new generation of collaborative robots, he names them “intelligent collaborative robots”,
-that they have human biomechanics, ergonomics, and safety included in motion perception, planning and control algorithms
-of collaborative robots. He reviewed the most cutting-edge researches in ergonomics and safety in HRC/HRI and introduces
-the current challenges in this area of research. He also suggested several new research ideas and opportunities for
-both robotics and safety and health communities.&lt;/p&gt;
-
-&lt;p&gt;The pdf version of his presentation is available &lt;a href=&#34;https://amir-yazdani.github.io/files/NOIRS2018-AmirYazdani.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
     <item>

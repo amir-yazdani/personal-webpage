@@ -13,12 +13,17 @@
     
     
     <item>
-      <title>An abstract presented in NOIRS 2018 symposium</title>
+      <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
       <link>https://amir-yazdani.github.io/post/noirs2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/post/noirs2018/</guid>
-      <description>Amir presented in 2018 National Occupational Injury Reduction Symposiums (NOIRS 2018) with the title of “Changing Perceptions of Robotics in Industry: Recent Accomplishment in Safety and Injury Risk Reduction”. He discussed what are the old, current and future solution for injury reduction in human-robot collaboration and mentioned that there will be a new generation of collaborative robots, he names them “intelligent collaborative robots”, that they have human biomechanics, ergonomics, and safety included in motion perception, planning and control algorithms of collaborative robots.</description>
+      <description>1) clone the hrl_kdl repository
+git clone https://github.com/gt-ros-pkg/hrl-kdl.git  2) install pykd_utils
+cd hrl-kdl/pykdl_utils python setup.py build sudo python setup.py install  3) install hrl_geom
+cd ~/catkin_ws/src/hrl-kdl/hrl_geom/ python setup.py build sudo python setup.py install  4) install urdf_parser and urdfdom-py
+sudo apt-get install ros-kinetic-urdf-parser-plugin sudo apt-get install ros-kinetic-urdfdom-py  5) building the catkin workspace
+cd ~/catkin_ws catkin build  </description>
     </item>
     
   </channel>

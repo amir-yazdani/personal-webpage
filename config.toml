@@ -312,10 +312,10 @@ enableGitInfo = false
   url = "#course_projects"
   weight = 45
 
-# [[menu.main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 70
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 75
 
 [[menu.main]]
   name = "News"
