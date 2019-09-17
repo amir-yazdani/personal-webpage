@@ -7,7 +7,7 @@ date = 2019-09-16T00:00:00
 #   1 = Detailed
 #   2 = Stream
 list_format = 2
-tags = ["pykdl", "kdl", "ros", "kinetics", "ubuntu"]
+tags = ["pykdl", "kdl", "ROS", "kinetic", "ubuntu"]
 reading_time = false  # Show estimated reading time?
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
@@ -44,7 +44,7 @@ sudo python setup.py install
 sudo apt-get install ros-kinetic-urdf-parser-plugin
 sudo apt-get install ros-kinetic-urdfdom-py
 ```
-5) building the catkin workspace
+5) build the catkin workspace
 ```bash
 cd ~/catkin_ws
 catkin build

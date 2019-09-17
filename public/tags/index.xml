@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ROS</title>
+      <link>https://amir-yazdani.github.io/tags/ros/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>kdl</title>
@@ -21,11 +31,11 @@
     </item>
     
     <item>
-      <title>kinetics</title>
-      <link>https://amir-yazdani.github.io/tags/kinetics/</link>
+      <title>kinetic</title>
+      <link>https://amir-yazdani.github.io/tags/kinetic/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/tags/kinetics/</guid>
+      <guid>https://amir-yazdani.github.io/tags/kinetic/</guid>
       <description></description>
     </item>
     
@@ -35,15 +45,6 @@
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/pykdl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ros</title>
-      <link>https://amir-yazdani.github.io/tags/ros/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/tags/ros/</guid>
       <description></description>
     </item>
     

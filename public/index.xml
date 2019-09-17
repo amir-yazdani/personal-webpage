@@ -12,10 +12,10 @@
     
     <item>
       <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
-      <link>https://amir-yazdani.github.io/post/noirs2018/</link>
+      <link>https://amir-yazdani.github.io/post/pykdl/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/post/noirs2018/</guid>
+      <guid>https://amir-yazdani.github.io/post/pykdl/</guid>
       <description>&lt;p&gt;1) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/gt-ros-pkg/hrl-kdl.git
@@ -41,7 +41,7 @@ sudo python setup.py install
 sudo apt-get install ros-kinetic-urdfdom-py
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;5) building the catkin workspace&lt;/p&gt;
+&lt;p&gt;5) build the catkin workspace&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws
 catkin build
