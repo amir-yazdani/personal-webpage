@@ -53,7 +53,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Amir Yazdani"
-  role = "PhD Candidate in Robotics"
+  role = "PhD Candidate in Robotics, Utah Robotics Center"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -113,7 +113,7 @@ enableGitInfo = false
   description = ""
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = ""
+  sharing_image = "amir-portrait.jpg"
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
   twitter = "amirreza_yz"
@@ -312,10 +312,10 @@ enableGitInfo = false
   url = "#course_projects"
   weight = 45
 
-# [[menu.main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 70
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 75
 
 [[menu.main]]
   name = "News"

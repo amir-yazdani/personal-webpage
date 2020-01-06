@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/post/pykdl/</loc>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/talk/nora2019/</loc>
       <lastmod>2019-04-10T00:00:00-06:00</lastmod>
     </url>
@@ -30,14 +38,6 @@
     
       <loc>https://amir-yazdani.github.io/talk/niosh2017/</loc>
       <lastmod>2017-06-21T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://amir-yazdani.github.io/post/noirs2018/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -310,15 +310,6 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/tags/abstract/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://amir-yazdani.github.io/</loc>
       <lastmod>2017-10-15T00:00:00-06:00</lastmod>
       <priority>0</priority>
@@ -345,15 +336,6 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/tags/noirs2018/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://amir-yazdani.github.io/project/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
@@ -372,6 +354,15 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/tags/ros/</loc>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/talk/</loc>
       <lastmod>2019-04-10T00:00:00-06:00</lastmod>
     </url>
@@ -381,7 +372,43 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/kdl/</loc>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/kinetic/</loc>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/pykdl/</loc>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/ubuntu/</loc>
+      <lastmod>2019-09-16T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
