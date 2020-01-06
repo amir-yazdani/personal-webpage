@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "Progressive Growing Natural Gas Network (PGNGN)"
+title = "Progressive Growing Neural Gas Network (PGNGN)"
 
 # Date this page was created.
 date = 2014-04-27T00:00:00

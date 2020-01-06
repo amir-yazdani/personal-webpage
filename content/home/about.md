@@ -40,6 +40,7 @@ weight = 1
 # Biography
 I am a Ph.D. candidate at the [Utah Robotics Center](http://robotics.coe.utah.edu/), University of Utah. I do my research under supervisory of [Prof. Tucker Hermans](http://www.cs.utah.edu/~thermans/) and [Prof. Andrew Merryweather](https://mech.utah.edu/faculty/andrew-merryweather/) and I am affiliated with [Utah Learning Lab for Manipulation Autonomy (LL4MA Lab)](https://robot-learning.cs.utah.edu/) and Laboratory of Ergonomics and Safety. I am passionate about human-aware prediction and planning for robots, reinforcement learning, artificial intelligence, and probabilistic robotics. My current research includes posture estimation, learning and planning under uncertainty, motion planning, haptic guidance and ergonomics and safety in human-robot interaction. I also have experiences in the design and development of robots including serial, parallel and mobile robots.
 
-I will joint [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotics Research Intern during summer 2019.
+I spent the 2019 summer at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotics Research Intern.
+
 
 Email: amir.yazdani@utah.edu

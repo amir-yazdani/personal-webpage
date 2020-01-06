@@ -3,7 +3,7 @@
 title = "Human Posture Estimation in p-HRI"
 
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2019-04-27T00:00:00
 
 # Project summary to display on homepage.
 summary = "Human posture estimation from a haptic device based on a partially-observable dynamic model"

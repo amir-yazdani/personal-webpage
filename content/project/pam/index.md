@@ -1,12 +1,12 @@
 +++
 # Project title.
-title = "PAM: A Patient Assistant Mobile Robot for Fall Prevention"
+title = "Mobile Manipulation Planning"
 
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2019-03-27T00:00:00
 
 # Project summary to display on homepage.
-# summary = "Human posture estimation from a haptic device based on a partially-observable dynamic model"
+summary = "Optimal Manipulation Planning for a mobile robot using Learned Objects Dynamic Models"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 # tags = ["Pose estimation", "particle filter"]

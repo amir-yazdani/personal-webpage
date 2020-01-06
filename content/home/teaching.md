@@ -17,6 +17,7 @@ weight = 70
 
 #### University of Utah
 
+- ME EN 6110-5110: Industrial Safety (TA)
 - ME EN 2550: Prob & Stats for Eng (TA)
 - ME EN 1000: Introduction to Design for Engineering Systems (TA)
 - ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA)
