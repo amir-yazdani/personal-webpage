@@ -11,6 +11,62 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</title>
+      <link>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</guid>
+      <description>
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;model_comparison.PNG&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Final displacement errors with and without feedback.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;sim_results.PNG&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;The final position and orientation errors in simulation experiments for all objects through all tasks.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;real_results.PNG&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Physical experiments results from two tasks.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
       <link>https://amir-yazdani.github.io/post/pykdl/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
@@ -50,12 +106,38 @@ catkin build
     </item>
     
     <item>
+      <title>Human Posture Estimation in p-HRI</title>
+      <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pose_estimation/</guid>
+      <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
+with the recent developments in physical human-robot interaction, estimating human posture is a demanding task specially in ergonomics and safety analysis, and adaption of robot motion based on human posture and motion.
+In this project we propose a novel method to estimate human posture in telemanipulation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
       <link>https://amir-yazdani.github.io/talk/nora2019/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Manipulation Planning</title>
+      <link>https://amir-yazdani.github.io/project/pam/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pam/</guid>
+      <description>&lt;p&gt;In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.&lt;/p&gt;
+
+&lt;p&gt;Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning. Thus, we have developed a probabilistic algorithm that learns pre-categorized object models using minimal force and motion interactions between the robot and object.&lt;/p&gt;
+
+&lt;p&gt;We account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the aid.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -287,32 +369,6 @@ yield a stable system.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Human Posture Estimation in p-HRI</title>
-      <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/pose_estimation/</guid>
-      <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
-with the recent developments in physical human-robot interaction, estimating human posture is a demanding task specially in ergonomics and safety analysis, and adaption of robot motion based on human posture and motion.
-In this project we propose a novel method to estimate human posture in telemanipulation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PAM: A Patient Assistant Mobile Robot for Fall Prevention</title>
-      <link>https://amir-yazdani.github.io/project/pam/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/pam/</guid>
-      <description>&lt;p&gt;In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.&lt;/p&gt;
-
-&lt;p&gt;Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning. Thus, we have developed a probabilistic algorithm that learns pre-categorized object models using minimal force and motion interactions between the robot and object.&lt;/p&gt;
-
-&lt;p&gt;We account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the aid.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Safe Motion Planning in Shared Autonomy</title>
       <link>https://amir-yazdani.github.io/project/safety_hri/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 -0600</pubDate>
@@ -338,15 +394,6 @@ In this project we propose a novel method to estimate human posture in telemanip
 
 &lt;/figure&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Optimal Design and Fabrication of a 4-DOF Quattrotaar Parallel Robot with Singularity-Free Workspace by ABC and PSO Algorithms</title>
-      <link>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</guid>
-      <description></description>
     </item>
     
   </channel>

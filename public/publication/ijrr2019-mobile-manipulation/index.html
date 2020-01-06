@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.52" />
+  <meta name="author" content="Amir Yazdani">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="A particular type of assistive robots designed for physical interaction with objects could play an important role assisting with mobility and fall prevention in healthcare facilities. Autonomous mobile manipulation presents a hurdle prior to safely being able to utilize robots in real life applications such as healthcare and warehouse robots. In this article, we introduce a mobile manipulation framework based on model predictive control using learned dynamics models of objects. We focus on the specific problem of manipulating legged objects such as those commonly found in healthcare environments and personal dwellings (e.g. walkers, tables, chairs, equipment stands). We describe a probabilistic method for autonomous learning of an approximate dynamics model for these objects. In this method, we learn pre-categorized object models by using a small dataset consisting of force and motion interactions between the robot and object. In addition, we account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the object. We propose a manipulation planning algorithm based on model predictive control to compensate for modeling errors and find an optimal path to manipulate the object from one configuration to another. We show results for several objects with different wheel configurations. Simulation and physical experiments show that the obtained dynamics models are sufficiently accurate for safe and collision-free manipulation. When combined with the proposed manipulation planning algorithm, the robot can successfully move the object to a desired pose while avoiding collision.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-130948196-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://amir-yazdani.github.io/index.xml" type="application/rss+xml" title="Amir Yazdani">
+  <link rel="feed" href="https://amir-yazdani.github.io/index.xml" type="application/rss+xml" title="Amir Yazdani">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@amirreza_yz">
+  <meta property="twitter:creator" content="@amirreza_yz">
+  
+  <meta property="og:site_name" content="Amir Yazdani">
+  <meta property="og:url" content="https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/">
+  <meta property="og:title" content="A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics | Amir Yazdani">
+  <meta property="og:description" content="A particular type of assistive robots designed for physical interaction with objects could play an important role assisting with mobility and fall prevention in healthcare facilities. Autonomous mobile manipulation presents a hurdle prior to safely being able to utilize robots in real life applications such as healthcare and warehouse robots. In this article, we introduce a mobile manipulation framework based on model predictive control using learned dynamics models of objects. We focus on the specific problem of manipulating legged objects such as those commonly found in healthcare environments and personal dwellings (e.g. walkers, tables, chairs, equipment stands). We describe a probabilistic method for autonomous learning of an approximate dynamics model for these objects. In this method, we learn pre-categorized object models by using a small dataset consisting of force and motion interactions between the robot and object. In addition, we account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the object. We propose a manipulation planning algorithm based on model predictive control to compensate for modeling errors and find an optimal path to manipulate the object from one configuration to another. We show results for several objects with different wheel configurations. Simulation and physical experiments show that the obtained dynamics models are sufficiently accurate for safe and collision-free manipulation. When combined with the proposed manipulation planning algorithm, the robot can successfully move the object to a desired pose while avoiding collision."><meta property="og:image" content="https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/featured.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-12-20T00:00:00-07:00">
+  
+  <meta property="article:modified_time" content="2019-12-20T00:00:00-07:00">
+  
+
+  
+
+  
+
+  <title>A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics | Amir Yazdani</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Amir Yazdani</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#course_projects">
+            
+            <span>Course Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#talks">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/files/Amir_Yazdani_CV.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-header d-xl-none">
+  <div class="featured-image" style="background-image: url('/publication/ijrr2019-mobile-manipulation/featured_hu2254b0beec4c4e635fc93c0adec744e7_3395215_800x0_resize_q75_box.jpg');"></div>
+  <span class="article-header-caption">Mobile manipulation to deliver a walker to a patient</span>
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</h1>
+
+        
+
+        
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Roya Sabbagh Novin</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Amir Yazdani</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Andrew Merryweather</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Tucker Hermans</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-12-20 00:00:00 -0700 MST" itemprop="datePublished">
+    <time datetime="2019-12-20 00:00:00 -0700 MST" itemprop="dateModified">
+      Dec 20, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Amir Yazdani">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1912.09565" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FRoyaSabbagh%2Fmanipulation_planning&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHjVJGbouN-_WUiahRHmnaMdi_QtA" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/pam/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/mw9qBr66bVQ" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/view/mobile-manipulation-planning" target="_blank" rel="noopener">
+    
+    website
+  </a>
+
+
+</div>
+
+
+
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics&amp;url=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f&amp;title=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f&amp;title=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics&amp;body=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/publication/ijrr2019-mobile-manipulation/featured_hu2254b0beec4c4e635fc93c0adec744e7_3395215_680x500_fill_q90_box_smart1.jpg" itemprop="image" alt="">
+        <span class="article-header-caption">Mobile manipulation to deliver a walker to a patient</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</h1>
+
+  
+
+  
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Roya Sabbagh Novin</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Amir Yazdani</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Andrew Merryweather</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Tucker Hermans</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-12-20 00:00:00 -0700 MST" itemprop="datePublished">
+    <time datetime="2019-12-20 00:00:00 -0700 MST" itemprop="dateModified">
+      Dec 20, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Amir Yazdani">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics&amp;url=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f&amp;title=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f&amp;title=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=A%20Model%20Predictive%20Approach%20for%20Online%20Mobile%20Manipulation%20of%20Nonholonomic%20Objects%20using%20Learned%20Dynamics&amp;body=https%3a%2f%2famir-yazdani.github.io%2fpublication%2fijrr2019-mobile-manipulation%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1912.09565" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+
+
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FRoyaSabbagh%2Fmanipulation_planning&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHjVJGbouN-_WUiahRHmnaMdi_QtA" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/pam/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/mw9qBr66bVQ" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/view/mobile-manipulation-planning" target="_blank" rel="noopener">
+    
+    website
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">A particular type of assistive robots designed for physical interaction with objects could play an important role assisting with mobility and fall prevention in healthcare facilities. Autonomous mobile manipulation presents a hurdle prior to safely being able to utilize robots in real life applications such as healthcare and warehouse robots. In this article, we introduce a mobile manipulation framework based on model predictive control using learned dynamics models of objects. We focus on the specific problem of manipulating legged objects such as those commonly found in healthcare environments and personal dwellings (e.g. walkers, tables, chairs, equipment stands). We describe a probabilistic method for autonomous learning of an approximate dynamics model for these objects. In this method, we learn pre-categorized object models by using a small dataset consisting of force and motion interactions between the robot and object. In addition, we account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the object. We propose a manipulation planning algorithm based on model predictive control to compensate for modeling errors and find an optimal path to manipulate the object from one configuration to another. We show results for several objects with different wheel configurations. Simulation and physical experiments show that the obtained dynamics models are sufficiently accurate for safe and collision-free manipulation. When combined with the proposed manipulation planning algorithm, the robot can successfully move the object to a desired pose while avoiding collision.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Sybmitted to <em>The International Journal of Robotics Research (IJRR)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            December, 2019
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+
+
+<figure>
+
+<img src="model_comparison.PNG" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Final displacement errors with and without feedback.</h4>
+  
+</figcaption>
+
+</figure>
+
+
+
+
+<figure>
+
+<img src="sim_results.PNG" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>The final position and orientation errors in simulation experiments for all objects through all tasks.</h4>
+  
+</figcaption>
+
+</figure>
+
+
+
+
+<figure>
+
+<img src="real_results.PNG" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Physical experiments results from two tasks.</h4>
+  
+</figcaption>
+
+</figure>
+</div>
+
+    
+
+
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+

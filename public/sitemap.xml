@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</loc>
+      <lastmod>2019-12-20T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/post/pykdl/</loc>
       <lastmod>2019-09-16T00:00:00-06:00</lastmod>
     </url>
@@ -12,8 +20,24 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/project/pose_estimation/</loc>
+      <lastmod>2019-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/talk/nora2019/</loc>
       <lastmod>2019-04-10T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/project/pam/</loc>
+      <lastmod>2019-03-27T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -101,22 +125,6 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/course_project/inv_pendulum/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://amir-yazdani.github.io/project/pose_estimation/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://amir-yazdani.github.io/project/pam/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
     
@@ -302,7 +310,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/publication_types/2/</loc>
-      <lastmod>2016-09-01T00:00:00-06:00</lastmod>
+      <lastmod>2019-12-20T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -337,7 +345,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+      <lastmod>2019-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
