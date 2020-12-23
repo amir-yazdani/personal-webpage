@@ -11,11 +11,42 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Estimating Human Teleoperator Posture Using Only a Haptic-Input Device</title>
-      <link>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 -0700</pubDate>
+      <title>Risk-Aware Planning for Patient Fall Prevention</title>
+      <link>https://amir-yazdani.github.io/project/risk_aware_planning/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</guid>
+      <guid>https://amir-yazdani.github.io/project/risk_aware_planning/</guid>
+      <description>&lt;p&gt;In order to assist the patient efficiently, we develop a risk-aware planning framework which finds the best manipulation plan that minimizes the fall risk probability with minimum robot effort.
+We view the risk-aware planning problem from the perspective of probabilistic inference and solve it as a multi-objective optimization problem.
+For the fall risk objective, we use a linear combination of expected value and CVaR to minimize the overall risk of fall while avoiding even low probabilities of high fall risks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
+      <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Posture Optimization in Teleoperation</title>
+      <link>https://amir-yazdani.github.io/project/pose_optimization/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pose_optimization/</guid>
+      <description>&lt;p&gt;Although  teleoperation  is  a  promising  alternative to avoid injuries in high-risk tasks, awkward postures are still a primary contributor to works-related musculoskeletal disorders in teleoperation.   An   ergonomically   intelligent   teleoperation system  could  reduce  risk  by  providing  feedback  for  postural correction.  In  this  project,  we  introduce  a  novel  framework for  postural  optimization  in  teleoperation  that  benefits  from common  risk  assessment  tools  in  ergonomics  and  provides online postural correction as well as optimal initial posture correction for a teleoperator according to the type of teleoperation task. We evaluate our framework in a simulated teleoperation environment  including  the  robots  and  the  human.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
+      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
       <description></description>
     </item>
     
@@ -115,14 +146,14 @@ catkin build
     </item>
     
     <item>
-      <title>Human Posture Estimation in p-HRI</title>
+      <title>Human Posture Estimation in Teleoperation</title>
       <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/pose_estimation/</guid>
-      <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up parkers and calibration of mocap systems. Markerless are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
+      <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up markers and calibration of MoCap systems. Markerless approaches are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
 with the recent developments in physical human-robot interaction, estimating human posture is a demanding task specially in ergonomics and safety analysis, and adaption of robot motion based on human posture and motion.
-In this project we propose a novel method to estimate human posture in telemanipulation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
+In this project we propose a novel method to estimate human posture in teleoperation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
 </description>
     </item>
     
@@ -160,13 +191,11 @@ In this project we propose a novel method to estimate human posture in telemanip
     
     <item>
       <title>The Search for Twitter Spam Bots</title>
-      <link>https://amir-yazdani.github.io/course_project/twitter_bots/</link>
+      <link>https://amir-yazdani.github.io/project/twitter_bots/</link>
       <pubDate>Wed, 20 Dec 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/course_project/twitter_bots/</guid>
-      <description>&lt;p&gt;Course: CS 6350 - Machine Learning&lt;/p&gt;
-
-&lt;p&gt;This course project includes finding spammer aand bot accounts in Twitter using machine learning techniques. The dataset is provided at the &lt;a href=&#34;https://www.kaggle.com/c/uofu-ml-fall-2017&#34; target=&#34;_blank&#34;&gt;Kaggle website&lt;/a&gt; and I have compared the performance of the following algorithms:&lt;/p&gt;
+      <guid>https://amir-yazdani.github.io/project/twitter_bots/</guid>
+      <description>&lt;p&gt;This project includes finding spammer and bot accounts in Twitter using machine learning techniques. The dataset is provided at the &lt;a href=&#34;https://www.kaggle.com/c/uofu-ml-fall-2017&#34; target=&#34;_blank&#34;&gt;Kaggle website&lt;/a&gt; and I have compared the performance of the following algorithms:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ID3 Decision Tree&lt;/li&gt;
@@ -174,11 +203,11 @@ In this project we propose a novel method to estimate human posture in telemanip
 &lt;li&gt;Gaussian Naive Bayes&lt;/li&gt;
 &lt;li&gt;SVM&lt;/li&gt;
 &lt;li&gt;Logistic Regression&lt;/li&gt;
-&lt;li&gt;SVM on CART&lt;/li&gt;
+&lt;li&gt;SVM + CART&lt;/li&gt;
 &lt;li&gt;Bagged Forest CART&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The results show that Bagged Forest Cart algorith and CART has the best accuracy on finding smap account.&lt;/p&gt;
+&lt;p&gt;The results show that Bagged Forest Cart algorithm and CART has the best accuracy on finding spam account.&lt;/p&gt;
 
 
 
@@ -242,139 +271,6 @@ In this project we propose a novel method to estimate human posture in telemanip
       
       <guid>https://amir-yazdani.github.io/publication/advrobotics2016-optimal/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Manipulation Planning of A Box Using A Mobile Robot</title>
-      <link>https://amir-yazdani.github.io/course_project/push_planning/</link>
-      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/course_project/push_planning/</guid>
-      <description>&lt;p&gt;Course: ME CS 6320- 3D Computer Vision&lt;/p&gt;
-
-&lt;p&gt;Mobility is one of the most important factors that contributes to quality of life. Each year, about 35% of individuals over age 65 experience one or more falls. Falls are the third leading cause of chronic disability worldwide6. In this project, we tried to address the concerns with home falls with a low-cost, intelligent mobile robot that will provide mobility aids, such as a walker, in the event that it determines that risk of fall is high.&lt;/p&gt;
-
-&lt;p&gt;As the project for Motion Planning course, a simplified version of the aforementioned bigger problem was defined in a simulation-based approach. In the proposed project, the problem includes the manipulation of a walker around an obstacle-filled area using a Roomba robot from a start position to a goal position. For simulation studies, all objects will be projected to the 2D plane. The Roomba as a circle, the walker as a box, and obstacles as simple polygons. Several assumptions for the problem have been made:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Only pushing has been used for manipulating the box.&lt;/li&gt;
-&lt;li&gt;Start and goal position of the box and start position of the robot are known.&lt;/li&gt;
-&lt;li&gt;Obstacles and their position are known.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The proposed approach to solve the above problem includes a high-level planner for push planning for the box and a lower level planner for motion planning of the robot. Based on what has been learned up to the point of proposal, a modified A* planning algorithm as a high-level planner in combination with RRT algorithm were proposed as the solution. The main contribution of this project is the development of a collision-free push planning algorithm for a box by a Roomba robot which includes a higher-level A* planner and a lower level RRT planner. Simulation studies have been done in Python for different environments and with different start and goal positions for the robot and box. Results reveal the ability of the algorithm to do a collision-free manipulation for the box.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;pushplanning2.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Simulation results on different environments. In left column, robot initial poses are yellow, box initial poses are red, box goal poses are green. In right column, robot path are yellow, box bath are green and visited nodes for box are red.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/SSRHkvtLvPM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/C7T5bCbeFek&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/ua2OfplkcjE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile Robot Visual Localization and 3D Map Generation</title>
-      <link>https://amir-yazdani.github.io/course_project/mobile_localization/</link>
-      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/course_project/mobile_localization/</guid>
-      <description>&lt;p&gt;Course: ME CS 6320- 3D Computer Vision&lt;/p&gt;
-
-&lt;p&gt;In this project, we will implement a Visual Odometry method on a Roomba iCreate 2 which is equipped with a Microsoft Kinect RGB-D sensor for localization and map generation. Although the mobile robot is moving on a 2D plane (ground), the localization and map generation algorithms are for 3D environments, so the final results are in 3D. At the end, we will evaluate our approach by comparing resulted localization with results from robot odometry, LIDAR sensor localization, or GPS data. Finally, we made a ROS package which includes different nodes for various parts of the algorithm.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;mobile1.jpg&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Indoor localization using graph-based SLAM with Kinect, LIDAR, and robot odometry.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Double-inverted pendulum</title>
-      <link>https://amir-yazdani.github.io/course_project/inv_pendulum/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/course_project/inv_pendulum/</guid>
-      <description>&lt;p&gt;Course: ME EN 6240- Advanced Mechatronics&lt;/p&gt;
-
-&lt;p&gt;Control of the unstable inverted pendulum is a common research topic in the area of Dynamics and Controls. The project goal was to design, implement and test all of the mechanical, electrical, and software systems necessary to stabilize and control a double inverted pendulum. Mechanical design was completed in Solidworks and the manufactured parts were 3D printed. Electrical signal conditioning was accomplished through passive and active componentry and then integrated to a dsPIC microcontroller.&lt;/p&gt;
-
-&lt;p&gt;All final software was developed in MATLAB Simulink then converted to C code to be used in the dsPIC. The MATLAB development environment provides an easy to use system for future attempts at controlling the system. Swing up and control of a single inverted pendulum was successful though further controller tuning could yield a better system performance.&lt;/p&gt;
-
-&lt;p&gt;The hardware and software for a double inverted pendulum
-was successfully implemented though stable control was never
-achieved. Further tuning of the LQR controller parameters would
-yield a stable system.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;pend1.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;The double-inverted pendulum on a cart.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;pend2.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Simulation result of the step response for the double-inverted pendulum&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-</description>
     </item>
     
   </channel>

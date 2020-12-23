@@ -9,7 +9,7 @@ date = 2019-03-27T00:00:00
 summary = "Optimal Manipulation Planning for a mobile robot using Learned Objects Dynamic Models"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["Motion Planning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

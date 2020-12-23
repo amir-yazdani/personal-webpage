@@ -9,7 +9,7 @@ date = 2010-04-27T00:00:00
 summary = "Design and developing VirSense, a novel haptic device with automatic gravity compensation and fixed-base actuators"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["Haptics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

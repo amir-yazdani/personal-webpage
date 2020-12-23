@@ -9,7 +9,7 @@ date = 2012-04-27T00:00:00
 summary = "Design, and develop a pneumatic 6-DOF Gough-Stewart parallel robot"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["Parallel Robots"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

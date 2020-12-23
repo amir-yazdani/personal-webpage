@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
+      <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
+      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dynamics Model Learning and Manipulation Planning for Objects in Hospitals Using a Patient Assistant Mobile (PAM) Robot</title>

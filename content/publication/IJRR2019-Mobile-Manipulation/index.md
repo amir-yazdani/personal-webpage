@@ -18,7 +18,7 @@ authors = ["Roya Sabbagh Novin", "Amir Yazdani", "Andrew Merryweather", "Tucker 
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Sybmitted to *The International Journal of Robotics Research (IJRR)*"
+publication = "Submitted to *The International Journal of Robotics Research (IJRR)*"
 publication_short = "In *IJRR 2019*"
 
 # Abstract and optional shortened version.

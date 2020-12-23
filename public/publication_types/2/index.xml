@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Estimating Human Teleoperator Posture Using Only a Haptic-Input Device</title>
-      <link>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</title>

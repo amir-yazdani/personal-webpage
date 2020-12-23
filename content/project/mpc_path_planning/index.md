@@ -9,7 +9,7 @@ date = 2015-04-27T00:00:00
 summary = "Collision-Free optimal path planning of serial robots using MPC and convex optimization"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["Motion Planning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -50,4 +50,4 @@ This algorithm can handle both static and dynamic obstacles due to its replannin
 
 {{< figure src="mpc1.jpg" title="Simulation results of minimum time (left) and minimum path (right) optimal path planning with dynamic obstacles." >}}
 
-{{< figure src="mpc23.jpg" title="Simulation results of optimal path planning on thre Tripteron parallel robot." >}}
+{{< figure src="mpc23.jpg" title="Simulation results of optimal path planning on the Tripteron parallel robot." >}}

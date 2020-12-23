@@ -13,11 +13,20 @@
     
     
     <item>
-      <title>Estimating Human Teleoperator Posture Using Only a Haptic-Input Device</title>
-      <link>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 -0700</pubDate>
+      <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
+      <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 -0600</pubDate>
       
-      <guid>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</guid>
+      <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
+      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
       <description></description>
     </item>
     

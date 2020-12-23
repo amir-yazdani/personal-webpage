@@ -40,9 +40,11 @@ weight = 1
 # Biography
 I am a Ph.D. candidate at the [Utah Robotics Center](http://robotics.coe.utah.edu/), University of Utah. I do my research under supervisory of [Prof. Tucker Hermans](http://www.cs.utah.edu/~thermans/) and [Prof. Andrew Merryweather](https://mech.utah.edu/faculty/andrew-merryweather/) and I am affiliated with [Utah Learning Lab for Manipulation Autonomy (LL4MA Lab)](https://robot-learning.cs.utah.edu/) and Laboratory of Ergonomics and Safety.
 
-I am passionate about human-robot interaction, probabilistic robotics, online motion planning, robot perception on human, and artificial intelligence. My current research includes posture estimation, learning and planning under uncertainty, motion planning, haptic guidance and ergonomics and safety in human-robot interaction. I also have experiences in the design and development of robots including serial, parallel and mobile robots.
+I am passionate about improving human-robot interaction (HRI) through developing new algorithms for robot perception and planning. My current research includes probabilistic perception and planning in HRI and covers human state estimation, ergonomics & safety optimization, teleoperation, risk-aware motion & manipulation planning, and inverse reinforcement learning.
 
 I spent the 2019 summer at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotics Research Intern working on online motion planning for industrial robots.
+
+I also have experiences in the design and development of robots including serial, parallel and mobile robots.
 
 
 

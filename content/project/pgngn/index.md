@@ -9,7 +9,7 @@ date = 2014-04-27T00:00:00
 summary = "PGNGN algorithm for determining singularity-free workspace of parallel robots"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["Parallel Robots"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -48,4 +48,4 @@ This project, proposes a new extension of the Growing Neural Gas Network, called
 
  By considering singularity loci expression, the separated parts are detected and each part will pursue learning, adding units and connections, until a given performance criterion will be reached. Finally, after finding cavities, if any exists, the maximal circle for each part of the workspace is found. A graphical user interface (GUI) is developed providing the users with easy access to the important parameters in which the singularity-free workspace of three planar three-degree-of-freedom (3-DOF) parallel mechanisms are investigated in which two of them, namely, 3-RRR and 3-PRR parallel mechanisms, are among the most complicated parallel mechanisms due to their highly nonlinear and complicated singularity loci expressions. Results reveal the applicability and reliability of the proposed PGNGN-based approach for obtaining the singularity-free workspace of planar parallel mechanisms.
 
-{{< figure src="pgngn11.jpg" title="maximal circle singularity-free workspace determination of 3-PRR planar parallel mechanism for its (þþþ) working mode." >}}
+{{< figure src="pgngn11.jpg" title="maximal circle singularity-free workspace determination of 3-PRR planar parallel mechanism" >}}

@@ -9,7 +9,7 @@ date = 2016-03-27T00:00:00
 summary = "Safe and human-aware optimal and fault tolerant motion planning in human-robot intearction"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["HRI", "Motion Planning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

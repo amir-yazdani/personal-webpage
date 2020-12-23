@@ -9,7 +9,7 @@ date = 2015-06-27T00:00:00
 summary = "Fault-tolerant and collision-free motion planning of serial robots"
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Pose estimation", "particle filter"]
+tags = ["Motion Planning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

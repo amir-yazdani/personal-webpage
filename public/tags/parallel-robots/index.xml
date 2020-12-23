@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parallel Robots on Amir Yazdani</title>
+    <link>https://amir-yazdani.github.io/tags/parallel-robots/</link>
+    <description>Recent content in Parallel Robots on Amir Yazdani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 27 Apr 2015 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://amir-yazdani.github.io/tags/parallel-robots/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>QuattroTaar 4-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/quattrotaar/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/quattrotaar/</guid>
+      <description>This project includes design, develop and kinematics analysis of QuattroTaar 3-DOF parallel robot inspired by the Quattro parallel robot. I designed the robot with a singularity-free workspace, developed the robot for very fast pick and place applications. The key feature of this design is how to design low friction joints. We used self-lubricant materials. Links are also made of costume made carbon-fibers to decrease the inertia and mass.  CAD model of the QuattroTaar&amp;rsquo;s limb.</description>
+    </item>
+    
+    <item>
+      <title>Progressive Growing Neural Gas Network (PGNGN)</title>
+      <link>https://amir-yazdani.github.io/project/pgngn/</link>
+      <pubDate>Sun, 27 Apr 2014 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/pgngn/</guid>
+      <description>This project, proposes a new extension of the Growing Neural Gas Network, called the Progressive Growing Neural Gas Network (PGNGN), for the application of kinematic investigation of parallel mechanisms, with more emphasis on the singularity-free workspace determination. In fact, PGNGN leads to a general approach in order to obtain the topology of the workspace. In this algorithm, the network starts to grow by taking into account new data points close to its border neurons by resorting to the so-called boundary data generation procedure.</description>
+    </item>
+    
+    <item>
+      <title>Cheshm-e-Chabok 2-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/agileeye2/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/agileeye2/</guid>
+      <description>This project includes design, develop, kinematics and dynamics analysis of a 3-DOF Cartesian robot inspired by the AgileEye2 parallel robot. I designed and developed the robot and was a key member to analyze its kinematics and dynamics using the Euler-Lagrangian method and control the robot using computed-torque control method. The key characteristic of this robot is to provide fast spherical motion similar to the human eye so we tested it with visual tracking and visual servoing applications and also used it as a camera stabilizer.</description>
+    </item>
+    
+    <item>
+      <title>Cheshm-e-Chabok 3-DOF Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/agileeye3/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/agileeye3/</guid>
+      <description>This project includes design, kinematics and dynamics analysis of a 3-DOF Cartesian robot inspired by the AgileEye3 parallel robot. I designed the robot and was the key member to do the kinematics and dynamics analysis using the Euler-Lagrangian method and also control of the device using computed-torque control method. This robot also provides fast 3-DOF spherical motion. We used this robot for tracking and also for simulating the motion of a human neck for a human head-like robot.</description>
+    </item>
+    
+    <item>
+      <title>A Fully-Decoupled Cartesian 3-PRRR Parallel Robot</title>
+      <link>https://amir-yazdani.github.io/project/tripteron/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/tripteron/</guid>
+      <description>This project includes design, develop, kinematics and dynamics analysis of a 3-DOF Cartesian robot inspired by the Tripteron robot. I optimally designed the mechanism to maximize the singularity-free workspace using geometry approaches using SolidWorks considering all joint limits and mechanical interface of joints. Later, I was involved with the optimal collision-free path planning of this robot. The accuracy and working speed due to its parallel structure, features this robot to be used for material handling, fast pick and place tasks, and large-scale 3D printing.</description>
+    </item>
+    
+    <item>
+      <title>A Pneumatic 6-DOF Gough-Stewart Robot</title>
+      <link>https://amir-yazdani.github.io/project/stewart/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/stewart/</guid>
+      <description>This project includes design, and develop a pneumatic 6-DOF Gough-Stewart parallel robot. In which, I did the kinematic design and optimized the design as a small testbed for driving and aircraft simulators. The design of the mechanism based on the characteristics of pneumatic actuators made it a very challenging design.  CAD model of the pneumatic 6-DOF Gough-Stewart parallel robot.</description>
+    </item>
+    
+    <item>
+      <title>Bus Driving Simulator</title>
+      <link>https://amir-yazdani.github.io/project/bus_simulator/</link>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/bus_simulator/</guid>
+      <description>This project includes the design and development of three types of urban bus driving simulators at Virtual Reality Laboratory at Khajeh Nasir Toosi University of Technology in Iran under contract with Tehran Bus Company. I designed a novel 4-DOF serial-parallel robot to be the base platform of driving simulators. It is a hybrid mechanism benefiting from the advantages of both serial and parallel mechanisms. The main challenge in this project was to design a mechanism structure based on the required motion for the driving simulators to provide the user with the most realistic feeling of driving.</description>
+    </item>
+    
+  </channel>
+</rss>

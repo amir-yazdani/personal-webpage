@@ -4,7 +4,7 @@ widget = "projects"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Projects"
+title = "Research Projects"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -30,22 +30,34 @@ flip_alt_rows = false
 # Filter toolbar.
 
 # Default filter index (e.g. 0 corresponds to the first `[[filter]]` instance below).
-filter_default = 0
+filter_default = 1
 
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
-#
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+ [[filter]]
+   name = "All"
+   tag = "*"
+
+ [[filter]]
+   name = "HRI"
+   tag = "HRI"
+
+ [[filter]]
+   name = "Motion Planning"
+   tag = "Motion Planning"
+
+ [[filter]]
+   name = "Haptics"
+   tag = "Haptics"
+
+ [[filter]]
+   name = "Parallel Robots"
+   tag = "Parallel Robots"
+
+ [[filter]]
+   name = "Other"
+   tag = "Other"
 
 +++

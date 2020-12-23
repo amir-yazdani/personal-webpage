@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other on Amir Yazdani</title>
+    <link>https://amir-yazdani.github.io/tags/other/</link>
+    <description>Recent content in Other on Amir Yazdani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Dec 2017 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://amir-yazdani.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Search for Twitter Spam Bots</title>
+      <link>https://amir-yazdani.github.io/project/twitter_bots/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/twitter_bots/</guid>
+      <description>This project includes finding spammer and bot accounts in Twitter using machine learning techniques. The dataset is provided at the Kaggle website and I have compared the performance of the following algorithms:
+ ID3 Decision Tree CART: Classification and Regression Trees Gaussian Naive Bayes SVM Logistic Regression SVM + CART Bagged Forest CART  The results show that Bagged Forest Cart algorithm and CART has the best accuracy on finding spam account.</description>
+    </item>
+    
+    <item>
+      <title>Mobile Robot Visual Localization and 3D Map Generation</title>
+      <link>https://amir-yazdani.github.io/project/mobile_localization/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/mobile_localization/</guid>
+      <description>In this project, we will implement a Visual Odometry method on a Roomba iCreate 2 which is equipped with a Microsoft Kinect RGB-D sensor for localization and map generation. Although the mobile robot is moving on a 2D plane (ground), the localization and map generation algorithms are for 3D environments, so the final results are in 3D. At the end, we will evaluate our approach by comparing resulted localization with results from robot odometry, LIDAR sensor localization, or GPS data.</description>
+    </item>
+    
+    <item>
+      <title>LQR Control of a Double-Inverted Pendulum</title>
+      <link>https://amir-yazdani.github.io/project/inv_pendulum/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/project/inv_pendulum/</guid>
+      <description>Control of the unstable inverted pendulum is a common research topic in the area of Dynamics and Controls. The project goal was to design, implement and test all of the mechanical, electrical, and software systems necessary to stabilize and control a double inverted pendulum. Mechanical design was completed in Solidworks and the manufactured parts were 3D printed. Electrical signal conditioning was accomplished through passive and active componentry and then integrated to a dsPIC microcontroller.</description>
+    </item>
+    
+  </channel>
+</rss>
