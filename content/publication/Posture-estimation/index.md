@@ -58,6 +58,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom= [{name = "Website", url = "https://sites.google.com/view/posture-estimation-in-teleop"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
