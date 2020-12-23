@@ -13,12 +13,21 @@
     
     
     <item>
+      <title>Estimating Human Teleoperator Posture Using Only a Haptic-Input Device</title>
+      <link>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/iros_ral_posture_estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</title>
       <link>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</guid>
-      <description>Final displacement errors with and without feedback. The final position and orientation errors in simulation experiments for all objects through all tasks. Physical experiments results from two tasks. </description>
+      <description>  Final displacement errors with and without feedback.    The final position and orientation errors in simulation experiments for all objects through all tasks.    Physical experiments results from two tasks.   </description>
     </item>
     
     <item>

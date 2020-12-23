@@ -17,7 +17,10 @@ weight = 30
 
 | Date                            | Description                    |
 | --------------------------------| ------------------------------ |
-|   May 2019      |Spent the summer 2019 at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotic Research Intern
+|   December 2020   |I have been selected to present my research on "Posture Estimation and Postural Optimization in Teleoperation" at the [HRI Pioneers 2021](http://www.hripioneers.info/hri21/)
+|   December 2020   |Our [paper](https://arxiv.org/abs/1912.09565) titled "A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics" got accepted to [IJRR](https://journals.sagepub.com/home/ijr)|
+|   May 2019      |Spending the summer 2019 at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotic Research Intern
+|   May 2019      |Passed my PhD Proposal
 |   April 2019      |Received the 2019 Dr. Paul Richards's Safe Workplace [Scholarship](https://ergo.mech.utah.edu/2019/04/18/2019-paul-s-richards-wcf-safe-workplace-scholarship/)
 |   April 2019      |Received the 2019 ASSP Foundation Scholarship
 |   October 2018|An {{% staticref "files/papers/NOIRS2018-AmirYazdani.pdf" "newtab" %}}abstract{{% /staticref %}} presented in NOIRS 2018, Morgantown, WV|
