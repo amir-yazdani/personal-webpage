@@ -49,8 +49,8 @@ slides = ""
 tags = []
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://arxiv.org/abs/1912.09565"
+url_pdf = "https://journals.sagepub.com/doi/full/10.1177/0278364921992793"
+# url_preprint = "https://arxiv.org/abs/1912.09565"
 url_code = "https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FRoyaSabbagh%2Fmanipulation_planning&sa=D&sntz=1&usg=AFQjCNHjVJGbouN-_WUiahRHmnaMdi_QtA"
 url_custom= [{name = "Website", url = "https://sites.google.com/view/mobile-manipulation-planning"}]
 url_project = "pam"

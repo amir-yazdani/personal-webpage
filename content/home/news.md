@@ -17,8 +17,9 @@ weight = 30
 
 | Date                            | Description                    |
 | --------------------------------| ------------------------------ |
-|   December 2020   |I have been selected to present my research on "Posture Estimation and Postural Optimization in Teleoperation" at the [HRI Pioneers 2021](http://www.hripioneers.info/hri21/) as a companion of [HRI 2021](https://humanrobotinteraction.org/2021/) conference
-|   December 2020   |Our [paper](https://arxiv.org/abs/1912.09565) titled "A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics" got accepted to [IJRR](https://journals.sagepub.com/home/ijr)|
+| February 2021 | Check out our recently-published paper on IJRR website: [A Model Predictive Approach for Online Mobile Manipulation of Non-Holonomic Objects Using Learned Dynamics](https://journals.sagepub.com/doi/full/10.1177/0278364921992793)
+|   December 2020   |I have been awarded as [HRI Pioneers 2021](http://www.hripioneers.info/hri21/) for my research on "Posture Estimation and Postural Optimization in Ergonomically Intelligent Teleoperation Systems". [Here](https://youtu.be/U1wPbWLtWhk) is a glimpse of my work that will be presented at the workshop on March 8.
+|   December 2020   |Our [paper](https://journals.sagepub.com/doi/full/10.1177/0278364921992793) titled "A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics" got accepted to [IJRR](https://journals.sagepub.com/home/ijr)|
 |   May 2019      |Spending the summer 2019 at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotic Research Intern
 |   May 2019      |Passed my PhD Proposal
 |   April 2019      |Received the 2019 Dr. Paul Richards's Safe Workplace [Scholarship](https://ergo.mech.utah.edu/2019/04/18/2019-paul-s-richards-wcf-safe-workplace-scholarship/)

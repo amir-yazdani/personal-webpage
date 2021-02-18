@@ -11,19 +11,18 @@ weight = 1
 [interests]
   interests = [
     "Human-Robot Interaction",
-    "Human-Aware Planning",
+    "Human Posture Estimation and Prediction",
     "Learning and Planning Under Uncertainty",
-    "Artificial Intelligence",
     "Probabilistic Robotics",
-    "Telemanipulation",
-    "Haptics"
-  ]
+    "Teleoperation",
+    "Haptics",
+]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD in Mechanical Eng.-Robotics"
   institution = "University of Utah"
-  year = 2020
+  year = 2021
 
 [[education.courses]]
   course = "MSc in Mechanical Eng."
