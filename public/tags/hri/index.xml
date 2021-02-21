@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/hri/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
+      <link>https://amir-yazdani.github.io/talk/hri_pioneers2021/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/hri_pioneers2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Risk-Aware Planning for Patient Fall Prevention</title>

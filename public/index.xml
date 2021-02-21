@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
+      <link>https://amir-yazdani.github.io/talk/hri_pioneers2021/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/hri_pioneers2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
+      <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Risk-Aware Planning for Patient Fall Prevention</title>
       <link>https://amir-yazdani.github.io/project/risk_aware_planning/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
@@ -20,15 +38,6 @@
 We view the risk-aware planning problem from the perspective of probabilistic inference and solve it as a multi-objective optimization problem.
 For the fall risk objective, we use a linear combination of expected value and CVaR to minimize the overall risk of fall while avoiding even low probabilities of high fall risks.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
-      <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -261,15 +270,6 @@ In this project we propose a novel method to estimate human posture in teleopera
       <pubDate>Thu, 01 Sep 2016 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/imeche2016-pgngn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimal Motion Planning for Parallel Robots Via Convex Optimization and Receding Horizon.</title>
-      <link>https://amir-yazdani.github.io/publication/advrobotics2016-optimal/</link>
-      <pubDate>Mon, 04 Jul 2016 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/advrobotics2016-optimal/</guid>
       <description></description>
     </item>
     

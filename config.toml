@@ -260,6 +260,11 @@ enableGitInfo = false
     link = "mailto:amir.yazdani@utah.edu"  # For a direct email link, use "mailto:test@example.org".
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "https://www.linkedin.com/in/amir-yazdani-robotics/"
+
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
     link = "https://twitter.com/amirreza_yz"
