@@ -18,8 +18,8 @@ authors = ["Roya Sabbagh Novin", "Amir Yazdani", "Andrew Merryweather", "Tucker 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Submitted to *IEEE Robotics and Automation Letters (RA-L)*"
-publication_short = "In *RA-L*"
+publication = "Accepted to *2021 IEEE International Conference on Robotics and Automation (ICRA 2021)*"
+publication_short = "In *ICRA 2021*"
 
 # Abstract and optional shortened version.
 abstract = "Planning under uncertainty is a crucial capability for autonomous systems to operate reliably in uncertain and dynamic environments. The concern of patient safety becomes even more critical in healthcare settings where robots interact with humans. In this paper, we propose a novel risk-aware planning framework to minimize the risk of patient falls by providing a patient with an assistive device. Our approach combines learning-based prediction with model-based control to plan for the fall prevention tasks. This provides advantages compared to end-to-end learning methods in which the robot's performance is limited to specific scenarios, or purely model-based approaches that use relatively simple function approximators and are prone to high modeling errors. We compare two different risk metrics and the combination of them and report the results from various simulated scenarios. The results show that using the proposed cost function, the robot can plan interventions to avoid high fall score events."
