@@ -17,6 +17,7 @@ weight = 30
 
 | Date                            | Description                    |
 | --------------------------------| ------------------------------ |
+| March 2021 | I will present my work on Ergonomically Intelligent Teleoperation Systems in HRI Pioneers 2021 Poster Sesssion at HRI 20210 conference. Check the [Paper](https://dl.acm.org/doi/pdf/10.1145/3434074.3446350) and {{% staticref "files/papers/HRI-Pioneers2021-poster.pdf" "newtab" %}}Poster{{% /staticref %}}.
 | February 2021 | Our paper titled "Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals" is accepted to ICRA 2021. Check the [video](https://youtu.be/WmYb1sxsIjg) and [preprint](https://arxiv.org/abs/2010.08124).
 | February 2021 | Check out our recently-published paper on IJRR website: [A Model Predictive Approach for Online Mobile Manipulation of Non-Holonomic Objects Using Learned Dynamics](https://journals.sagepub.com/doi/full/10.1177/0278364921992793)
 |   December 2020   |I have been awarded as [HRI Pioneers 2021](http://www.hripioneers.info/hri21/) for my research on "Posture Estimation and Postural Optimization in Ergonomically Intelligent Teleoperation Systems". [Here](https://youtu.be/U1wPbWLtWhk) is a glimpse of my work that will be presented at the workshop on March 8.
