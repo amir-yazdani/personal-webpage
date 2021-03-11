@@ -41,7 +41,7 @@ I am a Ph.D. candidate at the [Utah Robotics Center](http://robotics.coe.utah.ed
 
 I am passionate about improving human-robot interaction (HRI) through developing new algorithms for robot perception and planning. My current research includes probabilistic perception and planning in HRI and covers human state estimation, ergonomics & safety optimization, teleoperation, risk-aware motion & manipulation planning, and inverse reinforcement learning. I also have experiences in the design and development of robots including serial, parallel and mobile robots.
 
-Recently, I was selected as one of the [HRI Pioneers 2021 cohort](http://www.hripioneers.info/hri21/participants.html), a highly competitive doctoral workshop at the top venue for Human-Robot Interaction research.
+Recently, I was selected as one of the [HRI Pioneers 2021 cohort](http://www.hripioneers.info/hri21/participants.html), a highly competitive doctoral workshop at the top venue for HRI research.
 
 I spent the 2019 summer at [Omron-Adept Research Center of America (ORCA)](https://www.adept.com/) in San Ramon, CA as a Robotics Research Intern working on online motion planning for industrial robots.
 
