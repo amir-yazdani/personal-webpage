@@ -10,7 +10,7 @@ time_end = 2021-03-08T14:15:00
 all_day = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Amir Yazdani", "Roya Sabbagh Novin"]
+authors = []
 
 # Abstract and optional shortened version.
 abstract = "Ergonomics and human comfort are essential concerns in physical human-robot interaction (p-HRI) applications such as teleoperation. We introduce a novel framework for posture estimation and optimization for ergonomically intelligent teleoperation systems that estimates the human operator's posture solely from the leader robot's trajectory and provides online postural correction and offline initial posture correction according to the type of teleoperation task. Although our framework is in teleoperation, it can be extended to other p-HRI applications with minimal modifications."

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 08 Apr 2021 08:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Invited Talk: Ergonomically Intelligent Teleoperation Systems</title>
+      <link>https://amir-yazdani.github.io/talk/inria/</link>
+      <pubDate>Thu, 08 Apr 2021 08:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/inria/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>

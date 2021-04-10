@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
+      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
@@ -27,15 +36,6 @@
       <pubDate>Mon, 01 Feb 2021 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
-      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
-      <pubDate>Thu, 24 Sep 2020 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
       <description></description>
     </item>
     
@@ -94,7 +94,7 @@
     </item>
     
     <item>
-      <title>On The Inverse Dynamic Problem of a 3-PRRR Parallel Manipulator, Rhe Tripteron</title>
+      <title>On The Inverse Dynamic Problem of a 3-PRRR Parallel Manipulator, The Tripteron</title>
       <link>https://amir-yazdani.github.io/publication/icrom2013-tripteron/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 -0600</pubDate>
       

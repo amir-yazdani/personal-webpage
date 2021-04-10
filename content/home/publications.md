@@ -13,7 +13,7 @@ weight = 50
 
 
 # Number of publications to list.
-count = 30
+count = 5
 
 # List format.
 #   0 = Simple
@@ -22,6 +22,7 @@ count = 30
 #   3 = MLA
 #   4 = Stream
 list_format = 4
+
 
 # Filter by publication type.
 # -1: Any

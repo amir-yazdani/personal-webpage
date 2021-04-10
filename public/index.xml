@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Invited Talk: Ergonomically Intelligent Teleoperation Systems</title>
+      <link>https://amir-yazdani.github.io/talk/inria/</link>
+      <pubDate>Thu, 08 Apr 2021 08:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/inria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
+      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0600</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/publication/hri-pioneers2021-intelligent-teleop/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 -0700</pubDate>
@@ -57,15 +75,6 @@ For the fall risk objective, we use a linear combination of expected value and C
       <guid>https://amir-yazdani.github.io/project/pose_optimization/</guid>
       <description>&lt;p&gt;Although  teleoperation  is  a  promising  alternative to avoid injuries in high-risk tasks, awkward postures are still a primary contributor to works-related musculoskeletal disorders in teleoperation.   An   ergonomically   intelligent   teleoperation system  could  reduce  risk  by  providing  feedback  for  postural correction.  In  this  project,  we  introduce  a  novel  framework for  postural  optimization  in  teleoperation  that  benefits  from common  risk  assessment  tools  in  ergonomics  and  provides online postural correction as well as optimal initial posture correction for a teleoperator according to the type of teleoperation task. We evaluate our framework in a simulated teleoperation environment  including  the  robots  and  the  human.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
-      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
-      <pubDate>Thu, 24 Sep 2020 00:00:00 -0600</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -261,15 +270,6 @@ In this project we propose a novel method to estimate human posture in teleopera
       <pubDate>Wed, 21 Jun 2017 00:00:00 -0600</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/niosh2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Changing Perceptions of Robotics in Industry: Recent Accomplishment in Safety and Injury Risk Reduction</title>
-      <link>https://amir-yazdani.github.io/talk/robotics_seminar/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/talk/robotics_seminar/</guid>
       <description></description>
     </item>
     

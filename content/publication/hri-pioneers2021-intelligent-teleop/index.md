@@ -18,15 +18,15 @@ authors = ["Amir Yazdani", "Roya Sabbagh Novin"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *IEEEInternational Conference on Robotics and Automation (ICRA 2021)*"
-publication_short = "In *ICRA 2021*"
+publication = "In *Companion of HRI 2021*"
+publication_short = "In *Companion of HRI 2021*"
 
 # Abstract and optional shortened version.
 abstract = "Ergonomics and human comfort are essential concerns in physical human-robot interaction (p-HRI) applications such as teleoperation. We introduce a novel framework for posture estimation and optimization for ergonomically intelligent teleoperation systems that estimates the human operator's posture solely from the leader robot's trajectory and provides online postural correction and offline initial posture correction according to the type of teleoperation task. Although our framework is in teleoperation, it can be extended to other p-HRI applications with minimal modifications."
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

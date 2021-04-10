@@ -1,6 +1,6 @@
 +++
 title = "Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?"
-date = 2020-09-24T00:00:00
+date = 2021-04-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,15 +18,15 @@ authors = ["Amir Yazdani", "Roya Sabbagh Novin", "Andrew Merryweather", "Tucker 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *IEEEInternational Conference on Robotics and Automation (ICRA 2021)*"
-publication_short = "In *ICRA 2021*"
+publication = "In *Submitted to IEEE CASE (CASE 2021)*"
+publication_short = "In *Submitted to CASE 2021*"
 
 # Abstract and optional shortened version.
-abstract = "Ergonomic analysis of human posture plays a vital role in understanding long-term, work-related safety and health. Current analysis is often hindered due to difficulties in estimating human posture. We introduce a new approach to the problem of human posture estimation for teleoperation tasks which relies solely on a haptic-input device for generating observations. We model the human upper body using a redundant, partially observable dynamical system. This allows us to naturally formulate the estimation problem as probabilistic inference and solve the inference problem using a standard particle filter. We show that our approach accurately estimates the posture of different human users without knowing their specific segment lengths. We evaluate our posture estimation approach from a haptic-input device by comparing it with the human posture estimates from a commercial motion capture system. Our results show that the proposed algorithm successfully estimates human posture based only on the trajectory of the haptic-input device stylus. We additionally show that ergonomic risk estimates derived from our posture estimation approach are comparable to those estimates from gold-standard, motion-capture based pose estimates."
+abstract = "Ergonomic assessment of human posture plays a vital role in understanding work-related safety and health. Current posture estimation approaches face occlusion challenges in teleoperation and physical human-robot interaction. We investigate if the leader robot is an adequate sensor for posture estimation in teleoperation and we introduce a new probabilistic approach that relies solely on the trajectory of the leader robot for generating observations. We model the human using a redundant, partially-observable dynamical system and we infer the posture using a standard particle filter. We compare our approach with postures from a commercial motion capture system and also two least-squares optimization approaches for human inverse kinematics. The results reveal that the proposed approach successfully estimates human postures and ergonomic risk scores comparable to those estimates from gold-standard motion capture."
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

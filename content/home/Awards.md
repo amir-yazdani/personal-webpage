@@ -16,6 +16,7 @@ weight = 60
 +++
 | Date           | Description                    |
 | ------------------| ------------------------------ |
+|2021 |IEEE/ACM HRI Pioneer 2021|
 |2019 |American Society of Safety Professionals (ASSP) Foundation Scholarship|
 |2019 |Dr. Paul Richards's Safe Workplace Scholarship|
 |2018|Graduate Student Travel Assistance award, Graduate School, The University of Utah|

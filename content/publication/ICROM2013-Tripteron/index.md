@@ -1,5 +1,5 @@
 +++
-title = "On The Inverse Dynamic Problem of a 3-PRRR Parallel Manipulator, Rhe Tripteron"
+title = "On The Inverse Dynamic Problem of a 3-PRRR Parallel Manipulator, The Tripteron"
 date = 2013-09-01T00:00:00
 draft = false
 
