@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 08 Apr 2021 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Invited Talk: Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/talk/inria/</link>
-      <pubDate>Thu, 08 Apr 2021 08:00:00 -0600</pubDate>
+      <pubDate>Thu, 08 Apr 2021 08:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/inria/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/talk/hri_pioneers2021/</link>
-      <pubDate>Mon, 08 Feb 2021 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/hri_pioneers2021/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
       <link>https://amir-yazdani.github.io/talk/nora2019/</link>
-      <pubDate>Wed, 10 Apr 2019 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Improvement of Human Safety in Fault-Tolerant Human and Robot Collaboration Using Convex Optimization and Receding Horizon Control.</title>
       <link>https://amir-yazdani.github.io/talk/niosh2017/</link>
-      <pubDate>Wed, 21 Jun 2017 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/niosh2017/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Changing Perceptions of Robotics in Industry: Recent Accomplishment in Safety and Injury Risk Reduction</title>
       <link>https://amir-yazdani.github.io/talk/robotics_seminar/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/robotics_seminar/</guid>
       <description></description>

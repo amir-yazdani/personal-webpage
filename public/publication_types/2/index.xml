@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</title>
       <link>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</guid>
       <description>  Final displacement errors with and without feedback.    The final position and orientation errors in simulation experiments for all objects through all tasks.    Physical experiments results from two tasks.   </description>
@@ -24,7 +24,7 @@
     <item>
       <title>A New Neural Gas Network Approach for Obtaining The Singularity-Free Workspace of 3-DOF Planar Parallel Manipulators</title>
       <link>https://amir-yazdani.github.io/publication/imeche2016-pgngn/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 -0600</pubDate>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/imeche2016-pgngn/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Optimal Motion Planning for Parallel Robots Via Convex Optimization and Receding Horizon.</title>
       <link>https://amir-yazdani.github.io/publication/advrobotics2016-optimal/</link>
-      <pubDate>Mon, 04 Jul 2016 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/advrobotics2016-optimal/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Optimal Design and Fabrication of a 4-DOF Quattrotaar Parallel Robot with Singularity-Free Workspace by ABC and PSO Algorithms</title>
       <link>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/modares2016-quattrotaar/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Optimal Motion Planning of Redundant Planar Serial Robots Using A Synergy-Based Approach of Convex Optimization, Disjunctive Programming and Receding Horizon</title>
       <link>https://amir-yazdani.github.io/publication/imeche2016-optimal/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/imeche2016-optimal/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Design and Kinematic Analysis of a 4-DOF Serial-Parallel Manipulator for a Driving Simulator</title>
       <link>https://amir-yazdani.github.io/publication/ijr2015-simulator/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/ijr2015-simulator/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>VirSense: a Novel Haptic Device with Fixed-Base Motors and a Gravity Compensation System</title>
       <link>https://amir-yazdani.github.io/publication/indrobots2014-virsense/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/indrobots2014-virsense/</guid>
       <description></description>

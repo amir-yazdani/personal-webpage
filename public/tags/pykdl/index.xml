@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/pykdl/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
       <link>https://amir-yazdani.github.io/post/pykdl/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/post/pykdl/</guid>
       <description>1) clone the hrl_kdl repository

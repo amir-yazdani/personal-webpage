@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 08 Apr 2021 08:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>HRI</title>
       <link>https://amir-yazdani.github.io/tags/hri/</link>
-      <pubDate>Thu, 08 Apr 2021 08:00:00 -0600</pubDate>
+      <pubDate>Thu, 08 Apr 2021 08:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/hri/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Haptics</title>
       <link>https://amir-yazdani.github.io/tags/haptics/</link>
-      <pubDate>Tue, 27 Apr 2010 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 27 Apr 2010 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/haptics/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Motion Planning</title>
       <link>https://amir-yazdani.github.io/tags/motion-planning/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/motion-planning/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Other</title>
       <link>https://amir-yazdani.github.io/tags/other/</link>
-      <pubDate>Wed, 20 Dec 2017 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/other/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Parallel Robots</title>
       <link>https://amir-yazdani.github.io/tags/parallel-robots/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/parallel-robots/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>ROS</title>
       <link>https://amir-yazdani.github.io/tags/ros/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/ros/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>kdl</title>
       <link>https://amir-yazdani.github.io/tags/kdl/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/kdl/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>kinetic</title>
       <link>https://amir-yazdani.github.io/tags/kinetic/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/kinetic/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>pykdl</title>
       <link>https://amir-yazdani.github.io/tags/pykdl/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/pykdl/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>ubuntu</title>
       <link>https://amir-yazdani.github.io/tags/ubuntu/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/tags/ubuntu/</guid>
       <description></description>

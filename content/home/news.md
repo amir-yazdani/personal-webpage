@@ -17,6 +17,7 @@ weight = 30
 
 |         Date      | Description                    |
 |    :---           | ------------------------------ |
+|    June 2021     | Our [paper](https://arxiv.org/abs/2002.10586) got accepted to IEEE CASE 2021.|
 |    April 2021     | Had a talk about my research for [LARSEN](https://team.inria.fr/larsen/) team at INRIA Nancy on April 8.|
 |    April 2021     | Will serve as the US General Chair of HRI Pioneers 2022, Sapporo, Japan.|
 |    March 2021     | Presented my work on Ergonomically Intelligent Teleoperation Systems in HRI Pioneers 2021 Poster Session at HRI 2021 conference. Check the [Paper](https://dl.acm.org/doi/pdf/10.1145/3434074.3446350) and {{% staticref "files/papers/HRI-Pioneers2021-poster.pdf" "newtab" %}}Poster{{% /staticref %}}.|

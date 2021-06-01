@@ -18,8 +18,8 @@ authors = ["Amir Yazdani", "Roya Sabbagh Novin", "Andrew Merryweather", "Tucker 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Submitted to IEEE CASE (CASE 2021)*"
-publication_short = "In *Submitted to CASE 2021*"
+publication = "In *IEEE International Conference on Automation Science and Engineering (CASE 2021)*"
+publication_short = "In *CASE 2021*"
 
 # Abstract and optional shortened version.
 abstract = "Ergonomic assessment of human posture plays a vital role in understanding work-related safety and health. Current posture estimation approaches face occlusion challenges in teleoperation and physical human-robot interaction. We investigate if the leader robot is an adequate sensor for posture estimation in teleoperation and we introduce a new probabilistic approach that relies solely on the trajectory of the leader robot for generating observations. We model the human using a redundant, partially-observable dynamical system and we infer the posture using a standard particle filter. We compare our approach with postures from a commercial motion capture system and also two least-squares optimization approaches for human inverse kinematics. The results reveal that the proposed approach successfully estimates human postures and ergonomic risk scores comparable to those estimates from gold-standard motion capture."

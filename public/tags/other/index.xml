@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Dec 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Dec 2017 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>The Search for Twitter Spam Bots</title>
       <link>https://amir-yazdani.github.io/project/twitter_bots/</link>
-      <pubDate>Wed, 20 Dec 2017 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/twitter_bots/</guid>
       <description>This project includes finding spammer and bot accounts in Twitter using machine learning techniques. The dataset is provided at the Kaggle website and I have compared the performance of the following algorithms:
@@ -25,7 +25,7 @@
     <item>
       <title>Mobile Robot Visual Localization and 3D Map Generation</title>
       <link>https://amir-yazdani.github.io/project/mobile_localization/</link>
-      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 27 May 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/mobile_localization/</guid>
       <description>In this project, we will implement a Visual Odometry method on a Roomba iCreate 2 which is equipped with a Microsoft Kinect RGB-D sensor for localization and map generation. Although the mobile robot is moving on a 2D plane (ground), the localization and map generation algorithms are for 3D environments, so the final results are in 3D. At the end, we will evaluate our approach by comparing resulted localization with results from robot odometry, LIDAR sensor localization, or GPS data.</description>
@@ -34,7 +34,7 @@
     <item>
       <title>LQR Control of a Double-Inverted Pendulum</title>
       <link>https://amir-yazdani.github.io/project/inv_pendulum/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/inv_pendulum/</guid>
       <description>Control of the unstable inverted pendulum is a common research topic in the area of Dynamics and Controls. The project goal was to design, implement and test all of the mechanical, electrical, and software systems necessary to stabilize and control a double inverted pendulum. Mechanical design was completed in Solidworks and the manufactured parts were 3D printed. Electrical signal conditioning was accomplished through passive and active componentry and then integrated to a dsPIC microcontroller.</description>

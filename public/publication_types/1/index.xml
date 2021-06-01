@@ -7,24 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
-      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 -0600</pubDate>
+      <link>https://amir-yazdani.github.io/publication/case2021-posture-estimation/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
+      <guid>https://amir-yazdani.github.io/publication/case2021-posture-estimation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/publication/hri-pioneers2021-intelligent-teleop/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/hri-pioneers2021-intelligent-teleop/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
       <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Dynamics Model Learning and Manipulation Planning for Objects in Hospitals Using a Patient Assistant Mobile (PAM) Robot</title>
       <link>https://amir-yazdani.github.io/publication/iros2018-pam/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 -0600</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/iros2018-pam/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>An Experimental Study on The Failure-Tolerant Control of a Redundant Planar Serial Manipulator Via Pseudo-Inverse Approach</title>
       <link>https://amir-yazdani.github.io/publication/icrom2015-fault/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2015-fault/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Workspace Determination of Planar Parallel Robots via Progressive Growing Neural Gas Network</title>
       <link>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</link>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 -0600</pubDate>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2014-pgngn/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Design, Development, Dynamic Analysis and Control of a 2-DOF Spherical Parallel Mechanism</title>
       <link>https://amir-yazdani.github.io/publication/icrom2014-agile2/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2014-agile2/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Dynamic Modeling and Computed Torque Control of a 3-DOF Spherical Parallel Manipulator</title>
       <link>https://amir-yazdani.github.io/publication/icrom2014-agile3/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2014-agile3/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Design and Kinematic Analysis of a 4-DOF Serial-Parallel Manipulator for Urban Bus Driving Simulator</title>
       <link>https://amir-yazdani.github.io/publication/icrom2013-simulator/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2013-simulator/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>On The Inverse Dynamic Problem of a 3-PRRR Parallel Manipulator, The Tripteron</title>
       <link>https://amir-yazdani.github.io/publication/icrom2013-tripteron/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icrom2013-tripteron/</guid>
       <description></description>

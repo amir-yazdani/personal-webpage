@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/tags/motion-planning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Risk-Aware Planning for Patient Fall Prevention</title>
       <link>https://amir-yazdani.github.io/project/risk_aware_planning/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/risk_aware_planning/</guid>
       <description>In order to assist the patient efficiently, we develop a risk-aware planning framework which finds the best manipulation plan that minimizes the fall risk probability with minimum robot effort. We view the risk-aware planning problem from the perspective of probabilistic inference and solve it as a multi-objective optimization problem. For the fall risk objective, we use a linear combination of expected value and CVaR to minimize the overall risk of fall while avoiding even low probabilities of high fall risks.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Mobile Manipulation Planning</title>
       <link>https://amir-yazdani.github.io/project/pam/</link>
-      <pubDate>Wed, 27 Mar 2019 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/pam/</guid>
       <description>In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.
@@ -34,7 +34,7 @@ Many common objects found inside hospital rooms and personal dwellings have legs
     <item>
       <title>Manipulation Planning of A Box Using A Mobile Robot</title>
       <link>https://amir-yazdani.github.io/project/push_planning/</link>
-      <pubDate>Fri, 27 May 2016 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 27 May 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/push_planning/</guid>
       <description>Mobility is one of the most important factors that contributes to quality of life. Each year, about 35% of individuals over age 65 experience one or more falls. Falls are the third leading cause of chronic disability worldwide6. In this project, we tried to address the concerns with home falls with a low-cost, intelligent mobile robot that will provide mobility aids, such as a walker, in the event that it determines that risk of fall is high.</description>
@@ -43,7 +43,7 @@ Many common objects found inside hospital rooms and personal dwellings have legs
     <item>
       <title>Safe Motion Planning in Shared Autonomy</title>
       <link>https://amir-yazdani.github.io/project/safety_hri/</link>
-      <pubDate>Sun, 27 Mar 2016 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 27 Mar 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/safety_hri/</guid>
       <description>As human and robot collaboration become more intimate, and more intelligent robots are being used in both healthcare and manufacturing environments, the safety of humans working closely with companion or co-robots is becoming a challenging issue. As a result, there is a great need for developing improved control algorithms and better guidelines to allow humans and robots to safely work together in a synergistic fashion. The nature of human variability requires the robot to be able to learn and adapt to these changes while maintaining safety in the presence of an often unpredictable human worker.</description>
@@ -52,7 +52,7 @@ Many common objects found inside hospital rooms and personal dwellings have legs
     <item>
       <title>Fault-Tolerant Motion Planning</title>
       <link>https://amir-yazdani.github.io/project/ft_motion_planning/</link>
-      <pubDate>Sat, 27 Jun 2015 00:00:00 -0600</pubDate>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/ft_motion_planning/</guid>
       <description>In this project we focused on making the motion planning of the robots fault-tolerant. We started with the simple Pseudo inverse approach to making the joint trajectory planning of planar redundant serial robots the fault tolerant. We made a 4-DOF planar robot (TaArm) to do the experimental studies to show the performance of the proposed method.
@@ -62,7 +62,7 @@ Many common objects found inside hospital rooms and personal dwellings have legs
     <item>
       <title>Collision-Free Optimal Path Planning</title>
       <link>https://amir-yazdani.github.io/project/mpc_path_planning/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/mpc_path_planning/</guid>
       <description>This project focuses on the optimal path planning of redundant planar serial robots, while avoiding obstacles within its workspace. A synergy-based algorithm between convex optimization, disjunctive programming and receding horizon is employed to the end of achieving advantages such as finding the global optimum solution and low computational time.

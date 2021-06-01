@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Invited Talk: Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/talk/inria/</link>
-      <pubDate>Thu, 08 Apr 2021 08:00:00 -0600</pubDate>
+      <pubDate>Thu, 08 Apr 2021 08:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/inria/</guid>
       <description></description>
@@ -21,17 +21,17 @@
     
     <item>
       <title>Is The Leader Robot an Adequate Sensor for Posture Estimation and Ergonomic Assessment of A Human Teleoperator?</title>
-      <link>https://amir-yazdani.github.io/publication/posture-estimation/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 -0600</pubDate>
+      <link>https://amir-yazdani.github.io/publication/case2021-posture-estimation/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/publication/posture-estimation/</guid>
+      <guid>https://amir-yazdani.github.io/publication/case2021-posture-estimation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/publication/hri-pioneers2021-intelligent-teleop/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/hri-pioneers2021-intelligent-teleop/</guid>
       <description></description>
@@ -40,7 +40,7 @@
     <item>
       <title>Posture Estimation and Optimization in Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/talk/hri_pioneers2021/</link>
-      <pubDate>Mon, 08 Feb 2021 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/hri_pioneers2021/</guid>
       <description></description>
@@ -49,7 +49,7 @@
     <item>
       <title>Risk-Aware Decision Making in Service Robots to Minimize Risk of Patient Falls in Hospitals</title>
       <link>https://amir-yazdani.github.io/publication/icra-riskaware/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/icra-riskaware/</guid>
       <description></description>
@@ -58,7 +58,7 @@
     <item>
       <title>Risk-Aware Planning for Patient Fall Prevention</title>
       <link>https://amir-yazdani.github.io/project/risk_aware_planning/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/risk_aware_planning/</guid>
       <description>&lt;p&gt;In order to assist the patient efficiently, we develop a risk-aware planning framework which finds the best manipulation plan that minimizes the fall risk probability with minimum robot effort.
@@ -70,7 +70,7 @@ For the fall risk objective, we use a linear combination of expected value and C
     <item>
       <title>Human Posture Optimization in Teleoperation</title>
       <link>https://amir-yazdani.github.io/project/pose_optimization/</link>
-      <pubDate>Sun, 27 Sep 2020 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/pose_optimization/</guid>
       <description>&lt;p&gt;Although  teleoperation  is  a  promising  alternative to avoid injuries in high-risk tasks, awkward postures are still a primary contributor to works-related musculoskeletal disorders in teleoperation.   An   ergonomically   intelligent   teleoperation system  could  reduce  risk  by  providing  feedback  for  postural correction.  In  this  project,  we  introduce  a  novel  framework for  postural  optimization  in  teleoperation  that  benefits  from common  risk  assessment  tools  in  ergonomics  and  provides online postural correction as well as optimal initial posture correction for a teleoperator according to the type of teleoperation task. We evaluate our framework in a simulated teleoperation environment  including  the  robots  and  the  human.&lt;/p&gt;
@@ -80,7 +80,7 @@ For the fall risk objective, we use a linear combination of expected value and C
     <item>
       <title>A Model Predictive Approach for Online Mobile Manipulation of Nonholonomic Objects using Learned Dynamics</title>
       <link>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/ijrr2019-mobile-manipulation/</guid>
       <description>
@@ -136,7 +136,7 @@ For the fall risk objective, we use a linear combination of expected value and C
     <item>
       <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
       <link>https://amir-yazdani.github.io/post/pykdl/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/post/pykdl/</guid>
       <description>&lt;p&gt;1) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
@@ -175,7 +175,7 @@ catkin build
     <item>
       <title>Human Posture Estimation in Teleoperation</title>
       <link>https://amir-yazdani.github.io/project/pose_estimation/</link>
-      <pubDate>Sat, 27 Apr 2019 00:00:00 -0600</pubDate>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/pose_estimation/</guid>
       <description>&lt;p&gt;Human posture estimation has been a challenging research problem and many solutions has been suggested for different applications. Mainly, marker-based motion capture system and markerless camera-bases systems are the most common methods to estimate human posture. Marker-based solutions are usually more accurate however they require a long preparation time for setting up markers and calibration of MoCap systems. Markerless approaches are more convenient since they does not requires attaching markers on human body. Both of those methods are based on using cameras and have many limitation in real applications.
@@ -187,7 +187,7 @@ In this project we propose a novel method to estimate human posture in teleopera
     <item>
       <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
       <link>https://amir-yazdani.github.io/talk/nora2019/</link>
-      <pubDate>Wed, 10 Apr 2019 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
       <description></description>
@@ -196,7 +196,7 @@ In this project we propose a novel method to estimate human posture in teleopera
     <item>
       <title>Mobile Manipulation Planning</title>
       <link>https://amir-yazdani.github.io/project/pam/</link>
-      <pubDate>Wed, 27 Mar 2019 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/pam/</guid>
       <description>&lt;p&gt;In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.&lt;/p&gt;
@@ -210,7 +210,7 @@ In this project we propose a novel method to estimate human posture in teleopera
     <item>
       <title>Dynamics Model Learning and Manipulation Planning for Objects in Hospitals Using a Patient Assistant Mobile (PAM) Robot</title>
       <link>https://amir-yazdani.github.io/publication/iros2018-pam/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 -0600</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/iros2018-pam/</guid>
       <description></description>
@@ -219,7 +219,7 @@ In this project we propose a novel method to estimate human posture in teleopera
     <item>
       <title>The Search for Twitter Spam Bots</title>
       <link>https://amir-yazdani.github.io/project/twitter_bots/</link>
-      <pubDate>Wed, 20 Dec 2017 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 -0800</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/twitter_bots/</guid>
       <description>&lt;p&gt;This project includes finding spammer and bot accounts in Twitter using machine learning techniques. The dataset is provided at the &lt;a href=&#34;https://www.kaggle.com/c/uofu-ml-fall-2017&#34; target=&#34;_blank&#34;&gt;Kaggle website&lt;/a&gt; and I have compared the performance of the following algorithms:&lt;/p&gt;
@@ -267,7 +267,7 @@ In this project we propose a novel method to estimate human posture in teleopera
     <item>
       <title>Improvement of Human Safety in Fault-Tolerant Human and Robot Collaboration Using Convex Optimization and Receding Horizon Control.</title>
       <link>https://amir-yazdani.github.io/talk/niosh2017/</link>
-      <pubDate>Wed, 21 Jun 2017 00:00:00 -0600</pubDate>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/talk/niosh2017/</guid>
       <description></description>
