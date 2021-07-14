@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 08 Apr 2021 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://amir-yazdani.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DULA: A Differentiable Ergonomics Model for Postural Optimization in Physical HRI</title>
+      <link>https://amir-yazdani.github.io/talk/rss2021_r4p/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/rss2021_r4p/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Invited Talk: Ergonomically Intelligent Teleoperation Systems</title>

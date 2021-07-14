@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>DULA: A Differentiable Ergonomics Model for Postural Optimization in Physical HRI</title>
+      <link>https://amir-yazdani.github.io/talk/rss2021_r4p/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/talk/rss2021_r4p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DULA: A Differentiable Ergonomics Model for Postural Optimization in Physical HRI?</title>
+      <link>https://amir-yazdani.github.io/publication/rss2021-r4p-dula/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/rss2021-r4p-dula/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Invited Talk: Ergonomically Intelligent Teleoperation Systems</title>
       <link>https://amir-yazdani.github.io/talk/inria/</link>
       <pubDate>Thu, 08 Apr 2021 08:00:00 -0700</pubDate>
@@ -213,63 +231,6 @@ In this project we propose a novel method to estimate human posture in teleopera
       <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/publication/iros2018-pam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Search for Twitter Spam Bots</title>
-      <link>https://amir-yazdani.github.io/project/twitter_bots/</link>
-      <pubDate>Wed, 20 Dec 2017 00:00:00 -0800</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/twitter_bots/</guid>
-      <description>&lt;p&gt;This project includes finding spammer and bot accounts in Twitter using machine learning techniques. The dataset is provided at the &lt;a href=&#34;https://www.kaggle.com/c/uofu-ml-fall-2017&#34; target=&#34;_blank&#34;&gt;Kaggle website&lt;/a&gt; and I have compared the performance of the following algorithms:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ID3 Decision Tree&lt;/li&gt;
-&lt;li&gt;CART: Classification and Regression Trees&lt;/li&gt;
-&lt;li&gt;Gaussian Naive Bayes&lt;/li&gt;
-&lt;li&gt;SVM&lt;/li&gt;
-&lt;li&gt;Logistic Regression&lt;/li&gt;
-&lt;li&gt;SVM + CART&lt;/li&gt;
-&lt;li&gt;Bagged Forest CART&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The results show that Bagged Forest Cart algorithm and CART has the best accuracy on finding spam account.&lt;/p&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;twitter_table.png&#34; /&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;twitter_accuracy.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Accuracy of different algorithms.&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Improvement of Human Safety in Fault-Tolerant Human and Robot Collaboration Using Convex Optimization and Receding Horizon Control.</title>
-      <link>https://amir-yazdani.github.io/talk/niosh2017/</link>
-      <pubDate>Wed, 21 Jun 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/talk/niosh2017/</guid>
       <description></description>
     </item>
     
