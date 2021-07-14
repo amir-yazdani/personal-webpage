@@ -17,7 +17,7 @@ weight = 30
 
 |         Date      | Description                    |
 |    :---           | ------------------------------ |
-|    July 2021      | Short paper got accepted to RSS 2021 workshop [Robotics For People: Perspectives on Interaction, Learning and Safety](https://sites.google.com/view/r4p2021/)|
+|    July 2021      | {{% staticref "files/papers/RSS2021_R4P_paper.pdf" "newtab" %}}Short paper{{% /staticref %}} got accepted to RSS 2021 workshop [Robotics For People: Perspectives on Interaction, Learning and Safety](https://sites.google.com/view/r4p2021/)|
 |    June 2021     | [Paper](https://arxiv.org/abs/2002.10586) got accepted to IEEE CASE 2021.|
 |    April 2021     | Had a talk about my research for [LARSEN](https://team.inria.fr/larsen/) team at INRIA Nancy on April 8.|
 |    April 2021     | Will serve as the US General Chair of HRI Pioneers 2022, Sapporo, Japan.|
