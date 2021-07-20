@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ubuntu on Amir Yazdani</title>
-    <link>https://amir-yazdani.github.io/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on Amir Yazdani</description>
+    <title>openpose on Amir Yazdani</title>
+    <link>https://amir-yazdani.github.io/tags/openpose/</link>
+    <description>Recent content in openpose on Amir Yazdani</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 18 Jul 2021 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://amir-yazdani.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amir-yazdani.github.io/tags/openpose/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,20 +21,6 @@
       <description>OpenPose has represented the first real-time multi-person system to jointly detect human body, hand, facial, and foot keypoints (in total 135 keypoints) on single images.
 The install guide on its website, it starts with dependencies that should be installed before installing openpose. &amp;ldquo;DO NOT FOLLOW IT!&amp;rdquo;. Instead, follow these steps:
 1) check your Nvidia driver version in additional drivers page on your ubuntu. Make sure it is one of the proprietary packages.</description>
-    </item>
-    
-    <item>
-      <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
-      <link>https://amir-yazdani.github.io/post/pykdl/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/post/pykdl/</guid>
-      <description>1) clone the hrl_kdl repository
-git clone https://github.com/gt-ros-pkg/hrl-kdl.git  2) install pykd_utils
-cd hrl-kdl/pykdl_utils python setup.py build sudo python setup.py install  3) install hrl_geom
-cd ~/catkin_ws/src/hrl-kdl/hrl_geom/ python setup.py build sudo python setup.py install  4) install urdf_parser and urdfdom-py
-sudo apt-get install ros-kinetic-urdf-parser-plugin sudo apt-get install ros-kinetic-urdfdom-py  5) build the catkin workspace
-cd ~/catkin_ws catkin build  </description>
     </item>
     
   </channel>

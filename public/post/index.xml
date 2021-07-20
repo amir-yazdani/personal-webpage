@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Installing openpose on Ubuntu 20.04</title>
+      <link>https://amir-yazdani.github.io/post/openpose/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/post/openpose/</guid>
+      <description>OpenPose has represented the first real-time multi-person system to jointly detect human body, hand, facial, and foot keypoints (in total 135 keypoints) on single images.
+The install guide on its website, it starts with dependencies that should be installed before installing openpose. &amp;ldquo;DO NOT FOLLOW IT!&amp;rdquo;. Instead, follow these steps:
+1) check your Nvidia driver version in additional drivers page on your ubuntu. Make sure it is one of the proprietary packages.</description>
+    </item>
+    
+    <item>
       <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
       <link>https://amir-yazdani.github.io/post/pykdl/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>

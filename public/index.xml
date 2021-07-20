@@ -11,6 +11,103 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Installing openpose on Ubuntu 20.04</title>
+      <link>https://amir-yazdani.github.io/post/openpose/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/post/openpose/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/CMU-Perceptual-Computing-Lab/openpose&#34; target=&#34;_blank&#34;&gt;OpenPose&lt;/a&gt; has represented the first real-time multi-person system to jointly detect human body, hand, facial, and foot keypoints (in total 135 keypoints) on single images.&lt;/p&gt;
+
+&lt;p&gt;The install guide on its website, it starts with dependencies that should be installed before installing openpose. &amp;ldquo;&lt;strong&gt;DO NOT FOLLOW IT!&lt;/strong&gt;&amp;rdquo;. Instead, follow these steps:&lt;/p&gt;
+
+&lt;p&gt;1) check your Nvidia driver version in &lt;em&gt;additional drivers&lt;/em&gt; page on your ubuntu. Make sure it is one of the proprietary packages.
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;openpose1.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+2) Check your CUDA version using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;nvcc --version
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If CUDA is not installed, install nvidia toolkit using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install nvidia-cuda-toolkit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and reboot.
+3) Download a version of cuDNN from &lt;a href=&#34;https://developer.nvidia.com/rdp/cudnn-archive&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; that matches your CUDA version. Download all the .deb files for runtime and developer modes and code samples.
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;openpose2.jpg&#34; /&gt;
+
+
+&lt;/figure&gt;
+Install the runtime and developer ones, then install the code samples.
+4) Test if cuDNN using the mnist dataset:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cp -r /usr/src/cudnn_samples_v8/ $HOME
+cd  $HOME/cudnn_samples_v8/mnistCUDNN
+make clean &amp;amp;&amp;amp; make
+chmod +x ./mnistCUDNN
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If cuDNN is properly installed and running on your Linux system, you will see a message saying test passed!&lt;/p&gt;
+
+&lt;p&gt;5) Install opencv&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt install libopencv-dev python3-opencv
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;6) Install and configure gcc version 8 as the default using info from this &lt;a href=&#34;https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; . Check the gcc version and make sure it is version 8.&lt;/p&gt;
+
+&lt;p&gt;7)Now, clone openpose from the github&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;8) Install OpenPose dependencies by running the shell script:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd openpose\scripts\ubuntu
+chmod +x install_deps.sh
+sudo ./install_deps.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will install all the dependencies except caffe. caffe source code is already in openpose &lt;code&gt;3rdparty&lt;/code&gt; folder. When you build openpose, caffe will be installed.&lt;/p&gt;
+
+&lt;p&gt;9) Configure and make the build for OpenPose:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd {OpenPose_folder}
+mkdir build/
+cd build/
+cmake-gui ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;select the configs you want. Make sure to check build caffe, use cuDNN and openCV. Hit &amp;lsquo;Configure&amp;rsquo; and then &amp;lsquo;Generate&amp;rsquo;. Then close cmake.&lt;/p&gt;
+
+&lt;p&gt;10) Build OpenPose&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd build/
+make -j5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;11) Now, you can run a demo using the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ..
+./build/examples/openpose/openpose.bin --video examples/media/video.avi
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DULA: A Differentiable Ergonomics Model for Postural Optimization in Physical HRI</title>
       <link>https://amir-yazdani.github.io/talk/rss2021_r4p/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 -0700</pubDate>
@@ -223,15 +320,6 @@ In this project we propose a novel method to estimate human posture in teleopera
 
 &lt;p&gt;We account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the aid.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Dynamics Model Learning and Manipulation Planning for Objects in Hospitals Using a Patient Assistant Mobile (PAM) Robot</title>
-      <link>https://amir-yazdani.github.io/publication/iros2018-pam/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/publication/iros2018-pam/</guid>
-      <description></description>
     </item>
     
   </channel>
