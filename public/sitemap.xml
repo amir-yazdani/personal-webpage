@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/post/pykdl-noetic/</loc>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/post/openpose/</loc>
       <lastmod>2021-07-18T00:00:00-07:00</lastmod>
     </url>
@@ -92,7 +100,7 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/post/pykdl/</loc>
+      <loc>https://amir-yazdani.github.io/post/pykdl-kinetic/</loc>
       <lastmod>2019-09-16T00:00:00-07:00</lastmod>
     </url>
     
@@ -479,7 +487,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/ros/</loc>
-      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -505,7 +513,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/kdl/</loc>
-      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -515,6 +523,15 @@
     
       <loc>https://amir-yazdani.github.io/tags/kinetic/</loc>
       <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/noetic/</loc>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -532,7 +549,25 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/pykdl/</loc>
-      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/python/</loc>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/python3/</loc>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -541,7 +576,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/ubuntu/</loc>
-      <lastmod>2021-07-18T00:00:00-07:00</lastmod>
+      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

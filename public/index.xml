@@ -11,6 +11,52 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Installing pykdl_utils on ROS Noetic, Ubuntu 20.04</title>
+      <link>https://amir-yazdani.github.io/post/pykdl-noetic/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/post/pykdl-noetic/</guid>
+      <description>&lt;p&gt;1) Clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository in your catkin-ws folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/
+git clone https://github.com/amir-yazdani/hrl-kdl.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2) Checkout to the noetic-devel branch&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl
+git checkout noetic-devel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3) Install &lt;code&gt;pykd_utils&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl/pykdl_utils
+python3 setup.py build
+sudo python3 setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3) Install &lt;code&gt;hrl_geom&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/hrl-kdl/hrl_geom/
+python3 setup.py build
+sudo python3 setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;4) Install &lt;code&gt;urdf_parser&lt;/code&gt; and &lt;code&gt;urdfdom-py&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install ros-noetic-urdf-parser-plugin
+sudo apt-get install ros-noetic-urdfdom-py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;5) Build the catkin workspace&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws
+catkin build
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Installing openpose on Ubuntu 20.04</title>
       <link>https://amir-yazdani.github.io/post/openpose/</link>
       <pubDate>Sun, 18 Jul 2021 00:00:00 -0700</pubDate>
@@ -250,10 +296,10 @@ For the fall risk objective, we use a linear combination of expected value and C
     
     <item>
       <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
-      <link>https://amir-yazdani.github.io/post/pykdl/</link>
+      <link>https://amir-yazdani.github.io/post/pykdl-kinetic/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/post/pykdl/</guid>
+      <guid>https://amir-yazdani.github.io/post/pykdl-kinetic/</guid>
       <description>&lt;p&gt;1) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/gt-ros-pkg/hrl-kdl.git
@@ -306,20 +352,6 @@ In this project we propose a novel method to estimate human posture in teleopera
       
       <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile Manipulation Planning</title>
-      <link>https://amir-yazdani.github.io/project/pam/</link>
-      <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/project/pam/</guid>
-      <description>&lt;p&gt;In this project we introduce a patient assistant mobile (PAM) robot to monitor patient behavior and provide a cost-effective physical presence to continuously observe a patient and the environment to prevent falls.&lt;/p&gt;
-
-&lt;p&gt;Many common objects found inside hospital rooms and personal dwellings have legs (e.g. walkers, tables, chairs, equipment stands). For a mobile robot operating in such environments, safely maneuvering these objects without collision is essential. Since providing the robot with dynamic models of all possible legged objects that may exist in such environments is not feasible, autonomous learning of an approximate dynamic model for these objects would significantly improve manipulation planning. Thus, we have developed a probabilistic algorithm that learns pre-categorized object models using minimal force and motion interactions between the robot and object.&lt;/p&gt;
-
-&lt;p&gt;We account for multiple manipulation strategies by formulating the manipulation planning as a mixed-integer convex optimization problem. The proposed manipulation framework considers the hybrid control system comprised of i) choosing which leg to grasp, and ii) continuous applied forces to move the aid.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
