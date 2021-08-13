@@ -4,8 +4,8 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/post/pykdl-noetic/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <loc>https://amir-yazdani.github.io/full_news/</loc>
+      <lastmod>2021-08-13T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -100,7 +100,7 @@
     
     <url>
     
-      <loc>https://amir-yazdani.github.io/post/pykdl-kinetic/</loc>
+      <loc>https://amir-yazdani.github.io/post/pykdl/</loc>
       <lastmod>2019-09-16T00:00:00-07:00</lastmod>
     </url>
     
@@ -397,8 +397,35 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/tags/16.04/</loc>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/18.04/</loc>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/publication_types/2/</loc>
       <lastmod>2019-12-20T00:00:00-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://amir-yazdani.github.io/tags/20.04/</loc>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -487,7 +514,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/ros/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -504,7 +531,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/</loc>
-      <lastmod>2021-07-13T00:00:00-07:00</lastmod>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -513,7 +540,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/kdl/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -530,8 +557,17 @@
     
     <url>
     
+      <loc>https://amir-yazdani.github.io/tags/melodic/</loc>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://amir-yazdani.github.io/tags/noetic/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -549,25 +585,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/pykdl/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://amir-yazdani.github.io/tags/python/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://amir-yazdani.github.io/tags/python3/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <lastmod>2019-09-16T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -576,7 +594,7 @@
     <url>
     
       <loc>https://amir-yazdani.github.io/tags/ubuntu/</loc>
-      <lastmod>2021-07-21T00:00:00-07:00</lastmod>
+      <lastmod>2021-07-18T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

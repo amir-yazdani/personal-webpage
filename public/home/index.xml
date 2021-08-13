@@ -28,7 +28,7 @@
       
       <guid>https://amir-yazdani.github.io/home/about/</guid>
       <description>Biography I am a Ph.D. candidate at the Utah Robotics Center, University of Utah. I do my research under supervisory of Prof. Tucker Hermans and Prof. Andrew Merryweather and I am affiliated with Utah Learning Lab for Manipulation Autonomy (LL4MA Lab) and Laboratory of Ergonomics and Safety.
-I am passionate about improving human-robot interaction (HRI) through developing new algorithms for robot perception and planning. My current research includes probabilistic perception and planning in HRI and covers human state estimation, ergonomics &amp;amp; safety optimization, teleoperation, risk-aware motion &amp;amp; manipulation planning, and inverse reinforcement learning.</description>
+My current research includes probabilistic perception and planning in HRI and covers human state estimation, ergonomics &amp;amp; safety optimization, and risk-aware motion &amp;amp; manipulation planning.</description>
     </item>
     
     <item>
@@ -38,15 +38,6 @@ I am passionate about improving human-robot interaction (HRI) through developing
       
       <guid>https://amir-yazdani.github.io/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
-    </item>
-    
-    <item>
-      <title>Experience</title>
-      <link>https://amir-yazdani.github.io/home/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/home/experience/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -68,29 +59,20 @@ I am passionate about improving human-robot interaction (HRI) through developing
     </item>
     
     <item>
-      <title>Selected Talks</title>
-      <link>https://amir-yazdani.github.io/home/talks_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/home/talks_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
+      <title>Recent News</title>
       <link>https://amir-yazdani.github.io/home/news/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/home/news/</guid>
-      <description>Date Description     July 2021 Short paper got accepted to RSS 2021 workshop Robotics For People: Perspectives on Interaction, Learning and Safety   June 2021 Paper got accepted to IEEE CASE 2021.   April 2021 Had a talk about my research for LARSEN team at INRIA Nancy on April 8.   April 2021 Will serve as the US General Chair of HRI Pioneers 2022, Sapporo, Japan.</description>
+      <description>Date Description     July 2021 Short paper got accepted to RSS 2021 workshop Robotics For People: Perspectives on Interaction, Learning and Safety   June 2021 Paper got accepted to IEEE CASE 2021.   April 2021 Had an invited talk about my research for LARSEN team at INRIA Nancy on April 8.   April 2021 Selected as the US General Chair of HRI Pioneers 2022, Sapporo, Japan.</description>
     </item>
     
     <item>
-      <title>Research Projects</title>
-      <link>https://amir-yazdani.github.io/home/projects/</link>
+      <title>Recent Posts</title>
+      <link>https://amir-yazdani.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/projects/</guid>
+      <guid>https://amir-yazdani.github.io/home/posts/</guid>
       <description></description>
     </item>
     
@@ -100,6 +82,15 @@ I am passionate about improving human-robot interaction (HRI) through developing
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/home/course_projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://amir-yazdani.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/experience/</guid>
       <description></description>
     </item>
     
@@ -122,12 +113,21 @@ I am passionate about improving human-robot interaction (HRI) through developing
     </item>
     
     <item>
-      <title>Awards and Honors</title>
-      <link>https://amir-yazdani.github.io/home/awards/</link>
+      <title>Tags</title>
+      <link>https://amir-yazdani.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Projects</title>
+      <link>https://amir-yazdani.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/awards/</guid>
-      <description>Date Description     2021 IEEE/ACM HRI Pioneer 2021   2019 American Society of Safety Professionals (ASSP) Foundation Scholarship   2019 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   2018 Graduate Student Travel Assistance award, Graduate School, The University of Utah   2018 American Society of Safety Professionals (ASSP) Foundation Scholarship   2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   2017 Dr.</description>
+      <guid>https://amir-yazdani.github.io/home/projects/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -140,12 +140,21 @@ I am passionate about improving human-robot interaction (HRI) through developing
     </item>
     
     <item>
-      <title>Tags</title>
-      <link>https://amir-yazdani.github.io/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
+      <title>Selected Talks</title>
+      <link>https://amir-yazdani.github.io/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/home/tags/</guid>
+      <guid>https://amir-yazdani.github.io/home/talks_selected/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Awards and Honors</title>
+      <link>https://amir-yazdani.github.io/home/awards/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/home/awards/</guid>
+      <description>Date Description     2021 IEEE/ACM HRI Pioneer 2021   2019 American Society of Safety Professionals (ASSP) Foundation Scholarship   2019 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   2018 Graduate Student Travel Assistance award, Graduate School, The University of Utah   2018 American Society of Safety Professionals (ASSP) Foundation Scholarship   2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship   2017 Dr.</description>
     </item>
     
     <item>
@@ -154,16 +163,7 @@ I am passionate about improving human-robot interaction (HRI) through developing
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/home/teaching/</guid>
-      <description> University of Utah  ME EN 6150-5150: Introduction to Product Safety and Engineering Ethics(TA) ME EN 6110-5110: Introduction to Industrial Safety (TA) ME EN 2550: Prob &amp;amp; Stats for Eng (TA) ME EN 1000: Introduction to Design for Engineering Systems (TA) ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA) ME EN 4000: Engineering Design I (TA) ME EN 1005: CAD Lab (Lab instructor)  University of Tehran  Parallel Robots (TA) Statics and Strength of Materials (TA) Advanced Robotics (TA)  IEEE-Iran Section  Robot design by SolidWorks (Instructor)  Khajeh Nasir Toosi Univerity of Technology  Engineering Drawing (Lab instructor)  </description>
-    </item>
-    
-    <item>
-      <title>Recent Posts</title>
-      <link>https://amir-yazdani.github.io/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/home/posts/</guid>
-      <description></description>
+      <description> University of Utah  ME EN 2550: Prob &amp;amp; Stats for Eng (TA) ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA)  University of Tehran  Parallel Robots (TA) Advanced Robotics (TA)  </description>
     </item>
     
     <item>

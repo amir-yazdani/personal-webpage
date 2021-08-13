@@ -11,48 +11,131 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Installing pykdl_utils on ROS Noetic, Ubuntu 20.04</title>
-      <link>https://amir-yazdani.github.io/post/pykdl-noetic/</link>
-      <pubDate>Wed, 21 Jul 2021 00:00:00 -0700</pubDate>
+      <title>News</title>
+      <link>https://amir-yazdani.github.io/full_news/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://amir-yazdani.github.io/post/pykdl-noetic/</guid>
-      <description>&lt;p&gt;1) Clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository in your catkin-ws folder&lt;/p&gt;
+      <guid>https://amir-yazdani.github.io/full_news/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Date&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/
-git clone https://github.com/amir-yazdani/hrl-kdl.git
-&lt;/code&gt;&lt;/pre&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;July 2021&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://amir-yazdani.github.io/files/papers/RSS2021_R4P_paper.pdf&#34; target=&#34;_blank&#34;&gt;Short paper&lt;/a&gt; got accepted to RSS 2021 workshop &lt;a href=&#34;https://sites.google.com/view/r4p2021/&#34; target=&#34;_blank&#34;&gt;Robotics For People: Perspectives on Interaction, Learning and Safety&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;2) Checkout to the noetic-devel branch&lt;/p&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;June 2021&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2002.10586&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt; got accepted to IEEE CASE 2021.&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl
-git checkout noetic-devel
-&lt;/code&gt;&lt;/pre&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;April 2021&lt;/td&gt;
+&lt;td&gt;Had an invited talk about my research for &lt;a href=&#34;https://team.inria.fr/larsen/&#34; target=&#34;_blank&#34;&gt;LARSEN&lt;/a&gt; team at INRIA Nancy on April 8.&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;3) Install &lt;code&gt;pykd_utils&lt;/code&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;April 2021&lt;/td&gt;
+&lt;td&gt;Selected as the US General Chair of HRI Pioneers 2022, Sapporo, Japan.&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl/pykdl_utils
-python3 setup.py build
-sudo python3 setup.py install
-&lt;/code&gt;&lt;/pre&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;March 2021&lt;/td&gt;
+&lt;td&gt;Presented my work on Ergonomically Intelligent Teleoperation Systems in HRI Pioneers 2021 Poster Session at HRI 2021 conference. Check the &lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3434074.3446350&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt; and &lt;a href=&#34;https://amir-yazdani.github.io/files/papers/HRI-Pioneers2021-poster.pdf&#34; target=&#34;_blank&#34;&gt;Poster&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;3) Install &lt;code&gt;hrl_geom&lt;/code&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;February 2021&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2010.08124&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt; got accepted to ICRA 2021. Check the &lt;a href=&#34;https://youtu.be/WmYb1sxsIjg&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/risk-aware-decision-making/home&#34; target=&#34;_blank&#34;&gt;paper website&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/hrl-kdl/hrl_geom/
-python3 setup.py build
-sudo python3 setup.py install
-&lt;/code&gt;&lt;/pre&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;February 2021&lt;/td&gt;
+&lt;td&gt;Check out our recently-published paper on IJRR website: &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/0278364921992793&#34; target=&#34;_blank&#34;&gt;A Model Predictive Approach for Online Mobile Manipulation of Non-Holonomic Objects Using Learned Dynamics&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;4) Install &lt;code&gt;urdf_parser&lt;/code&gt; and &lt;code&gt;urdfdom-py&lt;/code&gt;&lt;/p&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;December 2020&lt;/td&gt;
+&lt;td&gt;Been awarded as &lt;a href=&#34;http://www.hripioneers.info/hri21/&#34; target=&#34;_blank&#34;&gt;HRI Pioneers 2021&lt;/a&gt; for my PhD research.&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install ros-noetic-urdf-parser-plugin
-sudo apt-get install ros-noetic-urdfdom-py
-&lt;/code&gt;&lt;/pre&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;December 2020&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/0278364921992793&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt; got accepted to &lt;a href=&#34;https://journals.sagepub.com/home/ijr&#34; target=&#34;_blank&#34;&gt;IJRR&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;5) Build the catkin workspace&lt;/p&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;May 2019&lt;/td&gt;
+&lt;td&gt;Spending the summer 2019 at &lt;a href=&#34;https://www.adept.com/&#34; target=&#34;_blank&#34;&gt;Omron-Adept Research Center of America (ORCA)&lt;/a&gt; in San Ramon, CA as a Robotic Research Intern&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws
-catkin build
-&lt;/code&gt;&lt;/pre&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;May 2019&lt;/td&gt;
+&lt;td&gt;Passed my PhD Proposal&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;April 2019&lt;/td&gt;
+&lt;td&gt;Received the 2019 Dr. Paul Richards&amp;rsquo;s Safe Workplace &lt;a href=&#34;https://ergo.mech.utah.edu/2019/04/18/2019-paul-s-richards-wcf-safe-workplace-scholarship/&#34; target=&#34;_blank&#34;&gt;Scholarship&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;April 2019&lt;/td&gt;
+&lt;td&gt;Received the 2019 ASSP Foundation Scholarship&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;October 2018&lt;/td&gt;
+&lt;td&gt;An &lt;a href=&#34;https://amir-yazdani.github.io/files/papers/NOIRS2018-AmirYazdani.pdf&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; presented in NOIRS 2018, Morgantown, WV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;October 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://amir-yazdani.github.io/files/papers/sabbagh-iros-2018-dynamics-learning.pdf&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt; presented in IROS 2018, Mardid, Spain&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;April 2018&lt;/td&gt;
+&lt;td&gt;Received the 2018 ASSP Foundation Scholarship&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;May 2018&lt;/td&gt;
+&lt;td&gt;Received the 2018 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;July 2017&lt;/td&gt;
+&lt;td&gt;Poster presented in  ICAMPAM 2018, Bethesda, MD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;May 2017&lt;/td&gt;
+&lt;td&gt;Received the 2017 Dr. Paul Richards&amp;rsquo;s Safe Workplace Scholarship&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;May 2017&lt;/td&gt;
+&lt;td&gt;Abstract presented in 2017 NIOSH State of The Science Conference, Aurora, CO&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;May 2017&lt;/td&gt;
+&lt;td&gt;Abstract presented in NORA 2017, Salt Lake City, UT&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;July 2016&lt;/td&gt;
+&lt;td&gt;Received the $6,500 NIOSH Pilot Project grant from RMCOEH&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
@@ -295,34 +378,89 @@ For the fall risk objective, we use a linear combination of expected value and C
     </item>
     
     <item>
-      <title>Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</title>
-      <link>https://amir-yazdani.github.io/post/pykdl-kinetic/</link>
+      <title>Installing pykdl_utils on ROS</title>
+      <link>https://amir-yazdani.github.io/post/pykdl/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 -0700</pubDate>
       
-      <guid>https://amir-yazdani.github.io/post/pykdl-kinetic/</guid>
-      <description>&lt;p&gt;1) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
+      <guid>https://amir-yazdani.github.io/post/pykdl/</guid>
+      <description>
+
+&lt;h1 id=&#34;installing-guide&#34;&gt;Installing Guide :&lt;/h1&gt;
+
+&lt;h2 id=&#34;python-2-for-ubuntu-16-04-18-04-with-ros-kinetic-melodic&#34;&gt;Python 2 for Ubuntu 16.04/18.04 with ROS Kinetic/Melodic&lt;/h2&gt;
+
+&lt;p&gt;1) move to your catkin workspace&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/gt-ros-pkg/hrl-kdl.git
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;2) install &lt;code&gt;pykd_utils&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;3) install &lt;code&gt;pykd_utils&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl/pykdl_utils
 python setup.py build
 sudo python setup.py install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;3) install &lt;code&gt;hrl_geom&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;4) install &lt;code&gt;hrl_geom&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/hrl-kdl/hrl_geom/
 python setup.py build
 sudo python setup.py install
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;5) install &lt;code&gt;urdf_parser&lt;/code&gt; and &lt;code&gt;urdfdom-py&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install ros-&amp;lt;ROS distibution&amp;gt;-urdf-parser-plugin
+sudo apt-get install ros-&amp;lt;ROS distibution&amp;gt;-urdfdom-py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;6) build the catkin workspace&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws
+catkin build
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;python-3-for-ubuntu-20-04-with-ros-noetic&#34;&gt;Python 3 for Ubuntu 20.04 with ROS Noetic&lt;/h2&gt;
+
+&lt;p&gt;1) move to your catkin workspace&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2) clone the &lt;code&gt;hrl_kdl&lt;/code&gt; repository&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/amir-yazdani/hrl-kdl.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3) checkout to the noetic-devel branch&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hrl-kdl
+git checkout noetic-devel
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;4) install &lt;code&gt;pykd_utils&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd pykdl_utils
+python3 setup.py build
+sudo python3 setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;5) install &lt;code&gt;hrl_geom&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd ~/catkin_ws/src/hrl-kdl/hrl_geom/
+python3 setup.py build
+sudo python3 setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;4) install &lt;code&gt;urdf_parser&lt;/code&gt; and &lt;code&gt;urdfdom-py&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install ros-kinetic-urdf-parser-plugin
-sudo apt-get install ros-kinetic-urdfdom-py
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt-get install ros-noetic-urdf-parser-plugin
+sudo apt-get install ros-noetic-urdfdom-py
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;5) build the catkin workspace&lt;/p&gt;

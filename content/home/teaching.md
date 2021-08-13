@@ -11,30 +11,17 @@ title = "Teaching"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 70
+weight = 100
 
 +++
 
 #### University of Utah
 
-- ME EN 6150-5150: Introduction to Product Safety and Engineering Ethics(TA)
-- ME EN 6110-5110: Introduction to Industrial Safety (TA)
+
 - ME EN 2550: Prob & Stats for Eng (TA)
-- ME EN 1000: Introduction to Design for Engineering Systems (TA)
 - ME EN 1010: Computer-based Problem Solving for Engineering Systems (TA)
-- ME EN 4000: Engineering Design I (TA)
-- ME EN 1005: CAD Lab (Lab instructor)
 
 #### University of Tehran
 
 - Parallel Robots (TA)
-- Statics and Strength of Materials (TA)
 - Advanced Robotics (TA)
-
-#### IEEE-Iran Section
-
-- Robot design by SolidWorks (Instructor)
-
-#### Khajeh Nasir Toosi Univerity of Technology
-
-- Engineering Drawing (Lab instructor)

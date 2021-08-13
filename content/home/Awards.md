@@ -11,7 +11,7 @@ title = "Awards and Honors"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 60
+weight = 90
 
 +++
 | Date           | Description                    |

@@ -17,7 +17,7 @@
   
     
   
-  <meta name="description" content="PhD Candidate in Robotics, Utah Robotics Center">
+  <meta name="description" content="PhD Candidate in Robotics">
 
   
   <link rel="alternate" hreflang="en-us" href="https://amir-yazdani.github.io/tags/kinetic/">
@@ -124,7 +124,7 @@
   <meta property="og:site_name" content="Amir Yazdani">
   <meta property="og:url" content="https://amir-yazdani.github.io/tags/kinetic/">
   <meta property="og:title" content="kinetic | Amir Yazdani">
-  <meta property="og:description" content="PhD Candidate in Robotics, Utah Robotics Center"><meta property="og:image" content="https://amir-yazdani.github.io/img/amir-portrait.jpg">
+  <meta property="og:description" content="PhD Candidate in Robotics"><meta property="og:image" content="https://amir-yazdani.github.io/img/amir-portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2019-09-16T00:00:00-07:00">
@@ -384,15 +384,15 @@
   
   
   <div>
-    <h2><a href="/post/pykdl-kinetic/">Installing pykdl_utils on ROS kinetic, Ubuntu 16.04</a></h2>
+    <h2><a href="/post/pykdl/">Installing pykdl_utils on ROS</a></h2>
     <div class="article-style">
       
-      1) clone the hrl_kdl repository
-git clone https://github.com/gt-ros-pkg/hrl-kdl.git  2) install pykd_utils
-cd hrl-kdl/pykdl_utils python setup.py build sudo python setup.py install  3) install hrl_geom
-cd ~/catkin_ws/src/hrl-kdl/hrl_geom/ python setup.py build sudo python setup.py install  4) install urdf_parser and urdfdom-py
-sudo apt-get install ros-kinetic-urdf-parser-plugin sudo apt-get install ros-kinetic-urdfdom-py  5) build the catkin workspace
-cd ~/catkin_ws catkin build  
+      Installing Guide : Python 2 for Ubuntu 16.04/18.04 with ROS Kinetic/Melodic 1) move to your catkin workspace
+cd ~/catkin_ws/src/  2) clone the hrl_kdl repository
+git clone https://github.com/gt-ros-pkg/hrl-kdl.git  3) install pykd_utils
+cd hrl-kdl/pykdl_utils python setup.py build sudo python setup.py install  4) install hrl_geom
+cd ~/catkin_ws/src/hrl-kdl/hrl_geom/ python setup.py build sudo python setup.py install  5) install urdf_parser and urdfdom-py
+sudo apt-get install ros-&lt;ROS distibution&gt;-urdf-parser-plugin sudo apt-get install ros-&lt;ROS distibution&gt;-urdfdom-py  6) build the catkin workspace
       
     </div>
   </div>

@@ -10,12 +10,13 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Human-Robot Interaction",
-    "Behavior and Motion Planning",
-    "Human Posture Estimation, Prediction, and Optimization",
-    "Learning and Planning Under Uncertainty",
     "Probabilistic Robotics",
-    "Teleoperation",
+    "Behaviour Planning",
+    "Risk-Aware Motion Planning",
+    "Human-Robot Interaction",
+    "Mixture of model-based and model-free RL",
+    "Human Posture Estimation, Prediction, and Optimization",
+    "Autonomous Systems"
 ]
 
 # List your qualifications (such as academic degrees).
@@ -39,19 +40,12 @@ weight = 1
 # Biography
 I am a Ph.D. candidate at the [Utah Robotics Center](http://robotics.coe.utah.edu/), University of Utah. I do my research under supervisory of [Prof. Tucker Hermans](http://www.cs.utah.edu/~thermans/) and [Prof. Andrew Merryweather](https://mech.utah.edu/faculty/andrew-merryweather/) and I am affiliated with [Utah Learning Lab for Manipulation Autonomy (LL4MA Lab)](https://robot-learning.cs.utah.edu/) and Laboratory of Ergonomics and Safety.
 
-I am passionate about improving human-robot interaction (HRI) through developing new algorithms for robot perception and planning. My current research includes probabilistic perception and planning in HRI and covers human state estimation, ergonomics & safety optimization, teleoperation, risk-aware motion & manipulation planning, and inverse reinforcement learning. I also have experiences in the design and development of robots including serial, parallel and mobile robots.
+My current research includes *probabilistic perception and planning* in HRI and covers human state estimation, ergonomics & safety optimization, and risk-aware motion & manipulation planning.
+I am very passionate about using probabilistic modeling and mixtures of model-based and model-free reinforcement learning and planning in behaviour planning for autonomos driving systems and intelligent HRI.
 
-Recently, I was selected as one of the [HRI Pioneers 2021](http://www.hripioneers.info/hri21/index.html) [cohort](http://www.hripioneers.info/hri21/participants.html), a highly competitive doctoral workshop at the top venue for HRI research, and I will serve as the US General Chair of HRI Pioneers 2022.
-
-I spent summer 2019 at [Omron-Adept Research Center of America (ORCA)](https://automation.omron.com/en/us/products/category/robotics) in San Ramon, CA as a Robotics Research Intern working on reactive motion planning for industrial robots.
+Recently, I was selected as one of the [HRI Pioneers 2021](http://www.hripioneers.info/hri21/index.html) [cohort](http://www.hripioneers.info/hri21/participants.html), a highly competitive doctoral workshop at the top venue for HRI research, and I will serve in the [HRI 2022](https://humanrobotinteraction.org/2022/) organizing team as the co-chair of HRI Pioneers.
 
 I expect to graduate Fall 2021. Feel free to contact me if you would like to discuss future job opportunities.
-
-
-
-
-
-
 
 
 
