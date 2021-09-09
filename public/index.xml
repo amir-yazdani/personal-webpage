@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Ergonomically Intelligent Physical Human-Robot Interaction: Postural Estimation, Assessment, and Optimization</title>
+      <link>https://amir-yazdani.github.io/publication/ai-hri2021/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://amir-yazdani.github.io/publication/ai-hri2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>News</title>
       <link>https://amir-yazdani.github.io/full_news/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
@@ -27,7 +36,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;July 2021&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://amir-yazdani.github.io/files/papers/RSS2021_R4P_paper.pdf&#34; target=&#34;_blank&#34;&gt;Short paper&lt;/a&gt; got accepted to RSS 2021 workshop &lt;a href=&#34;https://sites.google.com/view/r4p2021/&#34; target=&#34;_blank&#34;&gt;Robotics For People: Perspectives on Interaction, Learning and Safety&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://arxiv.org/abs/2107.06875&#34; target=&#34;_blank&#34;&gt;Short paper&lt;/a&gt; got accepted to RSS 2021 workshop &lt;a href=&#34;https://sites.google.com/view/r4p2021/&#34; target=&#34;_blank&#34;&gt;Robotics For People: Perspectives on Interaction, Learning and Safety&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -317,7 +326,7 @@ For the fall risk objective, we use a linear combination of expected value and C
       <pubDate>Sun, 27 Sep 2020 00:00:00 -0700</pubDate>
       
       <guid>https://amir-yazdani.github.io/project/pose_optimization/</guid>
-      <description>&lt;p&gt;Although  teleoperation  is  a  promising  alternative to avoid injuries in high-risk tasks, awkward postures are still a primary contributor to works-related musculoskeletal disorders in teleoperation.   An   ergonomically   intelligent   teleoperation system  could  reduce  risk  by  providing  feedback  for  postural correction.  In  this  project,  we  introduce  a  novel  framework for  postural  optimization  in  teleoperation  that  benefits  from common  risk  assessment  tools  in  ergonomics  and  provides online postural correction as well as optimal initial posture correction for a teleoperator according to the type of teleoperation task. We evaluate our framework in a simulated teleoperation environment  including  the  robots  and  the  human.&lt;/p&gt;
+      <description>&lt;p&gt;In  this  project,  we introduce postural optimization in  introduce  a  novel  framework for  postural  optimization  in  teleoperation  that  benefits  from common  risk  assessment  tools  in  ergonomics  and  provides online postural correction as well as optimal initial posture correction for a teleoperator according to the type of teleoperation task. We evaluate our framework in a simulated teleoperation environment  including  the  robots  and  the  human.&lt;/p&gt;
 </description>
     </item>
     
@@ -481,15 +490,6 @@ catkin build
 with the recent developments in physical human-robot interaction, estimating human posture is a demanding task specially in ergonomics and safety analysis, and adaption of robot motion based on human posture and motion.
 In this project we propose a novel method to estimate human posture in teleoperation. We believe that in physical interaction between human and the robot, only knowing the robot&amp;rsquo;s trajectory is adequate to estimate the human&amp;rsquo;s posture. We model the problem as a partially-observable dynamic model and use filtering and smoothing approaches to solve the problem.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Human Posture Estimation and Ergonomics Analysis Solely from the Robot in Physical Human-Robot Interaction</title>
-      <link>https://amir-yazdani.github.io/talk/nora2019/</link>
-      <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
-      
-      <guid>https://amir-yazdani.github.io/talk/nora2019/</guid>
-      <description></description>
     </item>
     
   </channel>
