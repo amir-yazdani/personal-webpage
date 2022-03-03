@@ -23,7 +23,7 @@ weight = 1
 [[education.courses]]
   course = "PhD in Mechanical Eng.-Robotics"
   institution = "University of Utah"
-  year = 2021
+  year = 2022
 
 [[education.courses]]
   course = "MSc in Mechanical Eng."
@@ -40,12 +40,12 @@ weight = 1
 # Biography
 I am a Ph.D. candidate at the [Utah Robotics Center](http://robotics.coe.utah.edu/), University of Utah. I do my research under supervisory of [Prof. Tucker Hermans](http://www.cs.utah.edu/~thermans/) and [Prof. Andrew Merryweather](https://mech.utah.edu/faculty/andrew-merryweather/) and I am affiliated with [Utah Learning Lab for Manipulation Autonomy (LL4MA Lab)](https://robot-learning.cs.utah.edu/) and Laboratory of Ergonomics and Safety.
 
-My current research includes *probabilistic perception and planning* in HRI and covers human state estimation, ergonomics & safety optimization, and risk-aware motion & manipulation planning.
-I am very passionate about using probabilistic modeling and mixtures of model-based and model-free reinforcement learning and planning in behaviour planning for autonomos driving systems and intelligent HRI.
+My current research includes *"probabilistic perception and planning"* in HRI and covers human state estimation, intelligent postural optimization, and risk-aware motion & manipulation planning.
+I am passionate about using probabilistic modeling and HRI concepts in interactie behaviour prediction and planning for autonomos vehicles and intelligent robots.
 
-Recently, I was selected as one of the [HRI Pioneers 2021](http://www.hripioneers.info/hri21/index.html) [cohort](http://www.hripioneers.info/hri21/participants.html), a highly competitive doctoral workshop at the top venue for HRI research, and I will serve in the [HRI 2022](https://humanrobotinteraction.org/2022/) organizing team as the co-chair of HRI Pioneers.
+Recently, I was selected as one of the [HRI Pioneers 2021](http://www.hripioneers.info/hri21/index.html) cohorts, a highly competitive doctoral workshop at the top venue for HRI research, and I am the co-chair of HRI Pioneers 2022.
 
-I expect to graduate Fall 2021. Feel free to contact me if you would like to discuss future job opportunities.
+I expect to graduate April 2022. Feel free to contact me if you would like to discuss future job opportunities.
 
 
 
